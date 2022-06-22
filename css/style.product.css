@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@700&display=swap');
 
-
 .intro-products {
     max-width: 1300px;
     padding-top: 117px;
@@ -49,7 +48,7 @@
     line-height: 140%;
 }
 
-/* 02 */
+/* 02 PRODUCTS */
 .products-section {
     display: flex;
     justify-content: center;
@@ -81,4 +80,62 @@
 hr {
     border: 0;
     border-top: 1px solid #9F9F9F;
+}
+
+/* #03 MACHINE BRANDS */
+.machine-section-p {
+    padding: 0px 100px 50px 100px;    
+}
+
+.brands-tittle {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+    padding-top: 60px;
+    color: #0D0D0D;
+    font-weight: 600;
+    line-height: 55px;
+    font-size: 2rem;
+}
+
+.text-center-tittle {
+    text-align: center;
+}
+
+.brands-subtittle {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    color: #0D0D0D;
+    padding-top: 10px;
+}
+
+.brands-sub-text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    color: #404040;
+}
+
+.one {
+    width: 112px;
+    height: 60px;
+    background: #00866D;
+    border-radius: 40px;
+    color: #F5F5F5;
+    padding: 5px 10px;
+}
+
+.brands-machine {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.brands {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    justify-content: space-between;
 }
