@@ -58,7 +58,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 70px;
-    justify-content: center;
+    align-items: center;
 }
 
 .products-item {
@@ -68,7 +68,6 @@
     font-weight: 700;
     font-size: 0.75rem;
     color: #404040;
-    align-items: center;
     text-transform: uppercase;
 }
 
@@ -115,6 +114,7 @@ hr {
     font-size: 15px;
     line-height: 21px;
     color: #404040;
+    padding-top: 10px;
 }
 
 .one {
