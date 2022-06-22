@@ -1,0 +1,105 @@
+footer{
+    background-color: #00866D;
+    padding: 50px 0;
+}
+
+.logo-footer {
+    padding: 0px 100px 74px 50px;
+}
+
+.container-footer {
+    max-width: 1400px;
+    padding: 0 3%;
+    margin: auto;
+}
+
+.row-footer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col {
+    width: 10%;
+    padding: 0 15px;
+}
+
+.footer-col h4 {
+    font-size: 1rem;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: 600;
+    position: relative;
+    width: 450px;
+}
+
+.footer-col ul li {
+    margin: 10px 0;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: white;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color:rgb(59, 230, 59);
+    padding-left: 5px;
+}
+
+.footer-col .form-sub input {
+    padding: 13px 70px 13px 20px;
+    border: 1px solid #F2F2F2;
+    border-radius: 30px;
+    background: #00866D;
+    color: #F2F2F2;
+    font-weight: 500;
+}
+
+.form-sub a {
+    color: white
+}
+
+/* End Footer */
+.div-footer {
+    margin-top: 150px;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid white;
+}
+
+.end-footer {
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #F2F2F2;
+    }
+
+.end-footer a {
+    color: #F2F2F2;
+}
+
+.end-footer-items {
+    display: flex;
+    gap: 25px;
+}
+
+.terms-service {
+    padding-left: 40px;
+}
+
+.social-media {
+    padding-left: 750px;
+    gap: 20px;
+}
+
+.distance {
+    padding: 8px;
+}

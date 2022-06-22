@@ -1,0 +1,35 @@
+body {
+    font-family: 'General Sans', Arial, sans-serif;
+    margin: 0px;
+    color: #0D0D0D;
+    background: #F5F5F5;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, p {
+    margin: 0px;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    /* display: block; */
+}
+
+::-moz-selection {
+	color: #F5F5F5;
+	background: #5AB88F;
+}
+  
+::selection {
+	color: #F5F5F5;
+	background: #5AB88F;
+}

@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@700&display=swap');
+
+
+.intro-products {
+    max-width: 1300px;
+    padding-top: 117px;
+    padding-bottom: 52px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+    align-items: center;
+    align-content: center;
+    background: #F2F2F2;
+}
+
+.intro-products h1 {
+    font-size: 3.87rem;
+    line-height: 0.95;
+    font-weight: 600;
+}
+
+.the-product {
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #9F9F9F;
+    background: #EFEFEF;    
+    padding: 8px 16px;
+    margin-bottom: ;
+    border-radius: 25px;
+    text-transform: uppercase;
+    display: inline-block;
+    position: relative;
+}
+
+.product-intro-sub {
+    color: #0D0D0D;
+    font-weight: 500;
+    font-size: 1.125rem;
+    padding: 20px 0px 50px 0px;
+    line-height: 140%;
+}
+
+.green-word-product {
+    color: #5AB88F;
+    font-weight: 500;
+    font-size: 1.125rem;
+    padding: 20px 0px 50px 0px;
+    line-height: 140%;
+}
+
+/* 02 */
+.products-section {
+    display: flex;
+    justify-content: center;
+}
+
+.products-menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+    justify-content: center;
+}
+
+.products-item {
+    font-family: 'Source Code Pro';
+    padding: 60px 0px 73px 0px;
+    gap: 10px;
+    font-weight: 700;
+    font-size: 0.75rem;
+    color: #404040;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.hr-products {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #9F9F9F;
+}
