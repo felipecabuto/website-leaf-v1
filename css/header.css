@@ -1,4 +1,4 @@
-/* MENU, LINKS AND BUTTONS */
+/* HEADER */
 .header {
     max-width: 1300px;
     padding: 17px 142px;
@@ -43,10 +43,37 @@
 }
 
 .nav-bar .nav-bar_item {
-	list-style-type: none;
 	padding: 26px 20px;
 }
 
+/* Links */
+nav .nav-bar .nav-bar_item .header-links {
+	position: relative;
+	display: block; 
+	padding-bottom: 5px;
+	color: #0D0D0D;
+}
+
+nav .nav-bar .nav-bar_item .header-links:hover {
+    color: #005E59;
+}
+
+nav .nav-bar .nav-bar_item .header-links:after {
+	content: "";
+	position: absolute;
+	width: 0%;
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	background-color: #00866D;
+	transition: 0.1s ease-in-out;
+}
+
+nav .nav-bar .nav-bar_item .header-links:hover:after {
+	width: 100%;
+}
+
+/* Dropdown Products */
 .nav-bar .dropdown {
 	position: relative;
 }
@@ -54,8 +81,8 @@
 .nav-bar .dropdown:after {
 	content: "";
 	position: absolute;
-	right: 0;
-	top: 30px;
+	right: 6px;
+	top: 29px;
 	width: 7px;
 	height: 7px;
 	cursor: pointer;
@@ -87,66 +114,90 @@
 	visibility: visible;
 }
 
-.logo-products {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 5px;
-    justify-content: center;
-}
-
-.drop-content li {
-	list-style-type: none;
-	margin-bottom: 10px;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 15px;
-    line-height: 20px;
-    color: #0D0D0D;
-}
-
-.drop-content li:hover {
-    color: #00866D;
-}
-
-.drop-content p {
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 16px;
-    color: #9F9F9F;
-}
-
-.drop-content p:hover {
-    color: #00866D;
-}
-
-.project div:hover {
-    /* display: inline-block; */
-    width: 504px;
-    height: 55px;
-    background: #81BBAF;
-    opacity: 0.1;
-    border-radius: 10px;
-}
-
-.project div:hover {
-    /* display: inline-block; */
-    width: 504px;
-    height: 55px;
-    background: #81BBAF;
-    opacity: 0.1;
-    border-radius: 10px;
-}
-
-.drop-content li:hover {
-    font-weight: 600;
-    font-size: 15px;
-    line-height: 20px;
-    color: #00866D;
-}
-
-nav .nav-bar .nav-bar_item a {
+/* Dropdown Company */
+.nav-bar .dropdown2 {
 	position: relative;
-	display: block; 
+}
+
+.nav-bar .dropdown2:after {
+	content: "";
+	position: absolute;
+	right: 6px;
+	top: 29px;
+	width: 7px;
+	height: 7px;
+	cursor: pointer;
+	transform: rotate(-45deg);
+	border-left: 2px solid #00866D;
+	border-bottom: 2px solid #00866D;
+	transition: 0.2s ease-in-out;
+}
+
+.nav-bar .dropdown2:hover:after{
+	transform: rotate(135deg);
+}
+
+.nav-bar .dropdown2 .project {
+	position: absolute;
+	transform: translateX(-20px) translateY(5px);
+    height: 160px;
+	width: 100px;
+    background: #FFFFFF;
+    box-shadow: 0px 14px 70px rgba(0, 0, 0, 0.1);
+	padding: 23px;
+	border-radius: 10px;
+	overflow: hidden;
+	visibility: hidden;
+	transition: 0.2s ease-in-out;
+}
+
+.nav-bar .dropdown2:hover .project{	
+	visibility: visible;
+}
+
+/* Dropdown EN */
+.nav-bar .dropdown3 {
+	position: relative;
+}
+
+.nav-bar .dropdown3:after {
+	content: "";
+	position: absolute;
+	right: 6px;
+	top: 29px;
+	width: 7px;
+	height: 7px;
+	cursor: pointer;
+	transform: rotate(-45deg);
+	border-left: 2px solid #00866D;
+	border-bottom: 2px solid #00866D;
+	transition: 0.2s ease-in-out;
+}
+
+.nav-bar .dropdown3:hover:after{
+	transform: rotate(135deg);
+}
+
+.nav-bar .dropdown3 .project {
+	position: absolute;
+	transform: translateX(-20px) translateY(5px);
+    height: 60px;
+	width: 90px;
+    background: #FFFFFF;
+    box-shadow: 0px 14px 70px rgba(0, 0, 0, 0.1);
+	padding: 23px;
+	border-radius: 10px;
+	overflow: hidden;
+	visibility: hidden;
+	transition: 0.2s ease-in-out;
+}
+
+.nav-bar .dropdown3:hover .project{	
+	visibility: visible;
+}
+
+/* Drop Item */
+nav .nav-bar .nav-bar_item a {
 	padding-bottom: 5px;
 	color: #0D0D0D;
 }
@@ -155,19 +206,28 @@ nav .nav-bar .nav-bar_item a:hover {
     color: #005E59;
 }
 
-nav .nav-bar .nav-bar_item a:after {
-	content: "";
-	position: absolute;
-	width: 0%;
-	height: 2px;
-	bottom: 0;
-	left: 0;
-	background-color: #00866D;
-	transition: 0.1s ease-in-out;
+/* Drop Content */
+.drop-content img {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-nav .nav-bar .nav-bar_item a:hover:after {
-	width: 100%;
+.drop-content li {
+	list-style-type: none;
+	margin-bottom: 10px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    color: #0D0D0D;    
+}
+
+.drop-content p {
+    display: inline;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #9F9F9F;
 }
 
 /* Access Buttons */
