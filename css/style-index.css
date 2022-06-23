@@ -99,12 +99,10 @@
 /* PRODUCTS */
 .product-section {
     max-width: 1300px;
-    /* padding: 40px 20px; */
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    /* gap: 100px; */
-        align-items: center;
+    align-items: center;
 }
 
 .product-section h2 {
@@ -321,6 +319,7 @@
     flex-wrap: wrap;
     gap: 5px;
     justify-content: center;
+    padding-bottom: 20px;
 }
 
 .endpoint-item {
@@ -336,17 +335,7 @@
     align-items: center;
 }
 
-.endpoint-code {
-    font: 'Source Code Pro';
-    max-width: 1300px;
-    /* padding: 40px 20px; */
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 100px;
-    align-items: center;
-}
-
+/* Terminal */
 .endpoints-background {
     width: 797px;
     height: 253px;
@@ -358,12 +347,32 @@
     margin-top: 20px;
 }
 
+.endpoint-code {
+    font: 'Source Code Pro';
+    max-width: 1300px;
+    /* padding: 40px 20px; */
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+    align-items: center;
+}
+
 .number {
     color: #9F9F9F;
+    position: relative;
+    left: -20px;
+    line-height: 26px;
+    padding-top: 5px;
+    /* padding-bottom: 1px; */
 }
 
 .endpoints-content {
     color: #EFEFEF;
+    position: relative;
+    left: -320px;
+    width: 460px;
+    line-height: 26px;
 }
 
 .endpoints-content span {
@@ -473,15 +482,4 @@
 
 .plant-future {
     padding: 80px 20px 60px 20px;
-}
-
-/* CONTACT */
-.contact {
-    width: 73.56px;
-    height: 76.71px;
-    position: fixed;
-    right: 10px;
-    bottom: 10px;
-    z-index: 90;
-    margin-bottom: 3rem;
 }
