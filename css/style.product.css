@@ -141,3 +141,27 @@ hr {
     padding: 10px;
     justify-content: space-between;
 }
+
+/* 04 MACHINE DATA */
+.machine-data-section {
+    width: 1512px;
+    height: 754px;
+    background: #00866D;
+}
+
+.intuitive-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px;
+    gap: 15px;
+    width: 174px;
+    height: 42px;
+    background: #5AB88F;
+    border-radius: 10px 0px 0px 0px;
+}
+
+.sample-btn {
+
+}

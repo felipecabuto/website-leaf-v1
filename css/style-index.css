@@ -333,6 +333,7 @@
     color: #F5F5F5;
     background: #00866D;
     align-items: center;
+    text-align: center;
 }
 
 /* Terminal */
@@ -405,11 +406,62 @@
 
 /* 08 TECHNOLOGY FIRST */
 .tech-first {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 10px;
-    margin-top: 20px;
+    width: 1312px;
+    height: 427px;
+    background: #00866D;
+    border-radius: 30px;
+    margin: 80px 100px;
+    place-content: center;
+}
+
+.tech-first h3 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: inline-block;
+    text-align: center;
+    padding-left: 150px;
+    padding-top: 65px;
+    position: absolute;
+}
+
+.lines {
+    padding-left: 130px;
+    padding-bottom: 50px;
+}
+
+.tech-content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-left: 240px;
+    padding-right: 210px;
+    margin-bottom: -180px;
+}
+
+.tech-items {
+    position: relative;
+    top: -345px;
+}
+
+.tech-items h4 {
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    color: #F5F5F5;
+    margin-bottom: 18px;
+    margin-top: 11px;
+}
+
+.tech-items p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    color: #F5F5F5;
 }
 
 /* 09 CALL TO ACTION */
