@@ -365,6 +365,7 @@
     left: -20px;
     line-height: 26px;
     padding-top: 5px;
+    z-index: 1;
     /* padding-bottom: 1px; */
 }
 
@@ -374,6 +375,7 @@
     left: -320px;
     width: 460px;
     line-height: 26px;
+    z-index: 1;
 }
 
 .endpoints-content span {
