@@ -1,0 +1,264 @@
+/* CSS Variables - Colors */
+:root {
+    --green: #0F876E;
+    --dark-green: #005E59;
+    --light-green-green: #93C462;
+    --light-green: #5AB88F;
+    --dark-green: #005E59;
+}
+ 
+  /* Native soft-scrolling */
+  .native-smooth-scrolling {
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+  }
+  
+  /* Each screen is AT LEAST 100% of viewport */
+  .full-screen {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    /* width: 1512px;
+    height: 766px; */
+    position: relative;
+  }
+  
+  /* Clip the pagination */
+  .clip {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100px;
+    clip: rect(0, auto, auto, 0);
+  }  
+  
+  /* Controls */
+  /* Default - white */
+  .controls {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100px;
+    height: 100vh;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 20px;
+    font-size: 12px;
+  }
+  
+  .controls a {
+    display: flex;
+    text-decoration: none;
+    position: relative;
+    z-index: 2;
+    color: var(--green);
+  }
+  
+  .controls a:before {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 20vh;
+    bottom: 0;
+    left: 8px;
+    border-left: 1px solid;
+    z-index: -1;
+    opacity: 0.3;
+  }
+  
+  .controls a:first-of-type:before {
+    content: unset;
+  }
+  
+  .controls-circle {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    border: 1px solid;
+    background: var(--dark-green);
+    border-radius: 50%;
+  }
+  
+  .controls-text {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .controls a:hover .controls-text,
+  .controls a:focus .controls-text {
+    opacity: 1;
+  }
+  
+  a:hover .controls-circle,
+  a:focus .controls-circle{
+    background: var(--light-green);
+    background-image: radial-gradient(var(--light-green), var(--light-green) 4px, var(--dark-green) 5px, var(--dark-green));
+  }
+  
+  a.active .controls-circle {
+    border-color: var(--light-green);
+    background: var(--light-green);
+  }
+  
+  .controls a.active:before {
+    border-color: var(--light-green);
+    opacity: 1;
+  }
+  
+  /* green */
+  .controls-green a {
+    color: var(--dark-green);
+  }
+  
+  .controls-green .controls-text {
+    color: var(--light-green-green);
+  }
+  
+  .controls-green .controls-circle {
+    background: var(--green);
+  }
+  
+  .controls-green a:hover .controls-circle,
+  .controls-green a:focus .controls-circle{
+    background: var(--light-green-green);
+    background-image: radial-gradient(var(--light-green-green), var(--light-green-green) 4px, var(--green) 5px, var(--green));
+  }
+  
+  .controls-green a.active .controls-circle {
+    border-color: var(--light-green-green);
+    background: var(--light-green-green);
+  }
+  
+  .controls-green a.active:before {
+    border-color: var(--light-green-green);
+  }
+  
+  /* White on green */
+  .controls-white-on-green a {
+    color: var(--dark-green);
+  }
+  
+  .controls-white-on-green .controls-text {
+    color: var(--green);
+  }
+  
+  .controls-white-on-green .controls-circle {
+    background: var(--light-green-green);
+  }
+  
+  .controls-white-on-green a:hover .controls-circle,
+  .controls-white-on-green a:focus .controls-circle{
+    background: var(--green);
+    background-image: radial-gradient(var(--green), var(--green) 4px, var(--light-green-green) 5px, var(--light-green-green));
+  }
+  
+  .controls-white-on-green a.active .controls-circle {
+    border-color: var(--green);
+    background: var(--green);
+  }
+  
+  .controls-white-on-green a.active:before {
+    border-color: var(--green);
+  }
+  
+  /* Navy */
+  .controls-navy a {
+    color: var(--green);
+  }
+  
+  .controls-navy .controls-text {
+    color: var(--dark-green);
+  }
+  
+  .controls-navy .controls-circle {
+    background: var(--light-green);
+  }
+  
+  .controls-navy a:hover .controls-circle,
+  .controls-navy a:focus .controls-circle{
+    background: var(--dark-green);
+    background-image: radial-gradient(var(--dark-green), var(--dark-green) 4px, var(--light-green) 5px, var(--light-green));
+  }
+  
+  .controls-navy a.active .controls-circle {
+    border-color: var(--dark-green);
+    background: var(--dark-green);
+  }
+  
+  .controls-navy a.active:before {
+    border-color: var(--dark-green);
+  }
+   
+  .container-outer {
+    display: flex;
+    width: calc(100% - 200px);
+    margin: 0 100px;
+    min-height: 100vh;    
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 900px;
+    margin: auto;
+    /* padding: 100px; */
+    gap: 50px;
+  }
+
+  .img-cards {
+   padding-top: 100px;
+  }
+
+  .text-card {
+    padding-top: 100px;
+  }
+
+  .white-word2 {
+    color: #F5F5F5;
+    padding-top: 10px;
+}
+
+.product-sub-white2 {
+    color: #F3F3F3;
+    font-weight: 400;
+    font-size: 0.93rem;
+    padding: 30px 0px 40px 0px;
+    line-height: 140%;
+}
+
+  .date {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #F5F5F5;
+  }
+  
+  /* Background colors */
+  .bg-navy {
+    background: var(--dark-green);
+  }
+  .bg-white {
+    background: var(--green);
+  }
+  .bg-green {
+    background: var(--light-green-green);
+  }
+  .bg-lime {
+    background: var(--light-green);
+  }
+
+  /* Text colors */
+  .text-white {
+    color: var(--green);
+  }
+  
+  .text-green {
+    color: var(--light-green-green);
+  }
+  
+  .text-navy {
+    color: var(--dark-green);
+  }
