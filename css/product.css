@@ -149,19 +149,31 @@ hr {
     background: #00866D;
 }
 
-.intuitive-btn {
+.machine-btn-sec {
     display: flex;
-    flex-direction: column;
     justify-content: center;
+}
+
+.data-menu {
+    display: flex;
+    flex-wrap: wrap;
     align-items: center;
+}
+
+.intuitive-btn {
     padding: 10px 15px;
-    gap: 15px;
-    width: 174px;
-    height: 42px;
+    gap: 15px;    
+    width: 149px;
+    height: 41px;
     background: #5AB88F;
     border-radius: 10px 0px 0px 0px;
 }
 
 .sample-btn {
-
+    padding: 10px 15px;
+    gap: 15px;    
+    width: 149px;
+    height: 41px;
+    background: #F5F5F5;
+    border-radius: 0px 10px 0px 0px;
 }

@@ -1,0 +1,539 @@
+/* #01 CALL TO ACTION */
+.intro {
+  max-width: 1300px;
+  padding: 117px 142px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+  align-items: center;
+  align-content: center;
+  background: #f2f2f2;
+}
+
+.intro h1 {
+  font-size: 3.87rem;
+  line-height: 0.95;
+  font-weight: 600;
+}
+
+.faster {
+  color: #5ab88f;
+  font-style: italic;
+}
+
+.x-typed-cursor {
+  padding-left: 2px;
+}
+
+.intro-sub {
+  color: #9f9f9f;
+  font-weight: 500;
+  font-size: 1.125rem;
+  padding: 20px 0px 50px 0px;
+  line-height: 140%;
+}
+
+.start-btn {
+  color: #f5f5f5;
+  font-weight: 600;
+  font-size: 0.93rem;
+  background: #00866d;
+  border-radius: 1000px;
+  padding: 10px 25px;
+}
+
+.start-btn:hover {
+  font-weight: 600;
+  line-height: 1.3;
+  background: #5ab88f;
+  border-radius: 1000px;
+  color: #f3f3f3;
+  padding: 10px 25px;
+  transition: all 0.7s ease 0s;
+}
+
+.sales-btn {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  color: #00866d;
+  padding: 10px 25px;
+}
+
+.sales-btn:hover {
+  color: #5ab88f;
+  transition: all 0.7s ease 0s;
+}
+
+/* #02 CLIENTS */
+.clients-section {
+  padding: 0px 100px 50px 100px;
+}
+
+.trusted {
+  padding-bottom: 30px;
+  color: #0d0d0d;
+  font-weight: 600;
+  font-size: 0.93rem;
+  display: flex;
+  justify-content: center;
+}
+
+.clients {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+.customer {
+  padding-top: 30px;
+  color: #00866d;
+  font-weight: 600;
+  font-size: 0.93rem;
+  display: flex;
+  justify-content: center;
+}
+
+/* PRODUCTS */
+.product-section {
+  max-width: 1300px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.product-section h2 {
+  font-size: 3rem;
+  line-height: 55px;
+  font-weight: 600;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.machine-section {
+  max-width: 1300px;
+  padding-top: 80px;
+  padding-bottom: 150px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.machine-section h2 {
+  font-size: 3rem;
+  line-height: 55px;
+  font-weight: 600;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.dev-section {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.dev-section h2 {
+  font-size: 3rem;
+  line-height: 55px;
+  font-weight: 600;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.field-section {
+  max-width: 1300px;
+  /* padding: 40px 20px; */
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  align-items: center;
+}
+
+.field-section h2 {
+  font-size: 3rem;
+  line-height: 55px;
+  font-weight: 600;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.field-text {
+  padding-left: 50px;
+}
+
+.field-background {
+  background: no-repeat center/100% url("../images/field-background.png");
+  max-width: 1400px;
+  padding: 100px;
+}
+
+.product-name {
+  font: "Source Code Pro";
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #9f9f9f;
+  background: #efefef;
+  padding: 8px 16px;
+  border-radius: 25px;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.white-word {
+  color: #f5f5f5;
+}
+
+.green-word {
+  color: #5ab88f;
+}
+
+.green-word2 {
+  color: limegreen;
+}
+
+.product-sub {
+  color: #9f9f9f;
+  font-weight: 400;
+  font-size: 0.93rem;
+  padding: 20px 0px 20px 0px;
+  line-height: 21px;
+  padding-top: 0px;
+  padding-bottom: 30px;
+}
+
+.product-sub-data {
+  color: #404040;
+  font-weight: 400;
+  font-size: 0.93rem;
+  padding: 30px 0px 40px 0px;
+  line-height: 21px;
+}
+
+.product-sub-field {
+  color: #404040;
+  font-weight: 400;
+  font-size: 0.93rem;
+  padding: 30px 0px 40px 0px;
+  line-height: 21px;
+}
+
+.product-sub-white {
+  color: #f3f3f3;
+  font-weight: 400;
+  font-size: 0.93rem;
+  padding: 30px 0px 40px 0px;
+  line-height: 140%;
+}
+
+.product-sub-dev {
+  color: #404040;
+  font-weight: 400;
+  font-size: 0.93rem;
+  padding: 15px 0px 30px 0px;
+  line-height: 21px;
+}
+
+.product-sub-team {
+  color: #404040;
+  font-weight: 400;
+  font-size: 0.93rem;
+  padding: 20px 0px 20px 0px;
+  line-height: 21px;
+  padding-top: 0px;
+  padding-bottom: 52px;
+}
+
+.learn-more-btn {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  color: #00866d;
+  padding: 20px 0px 20px 0px;
+}
+
+.learn-more-btn:hover {
+  color: #5ab88f;
+  transition: all 0.7s ease 0s;
+}
+
+.imagery-btn {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  color: #4de4a2;
+  padding: 20px 0px 20px 0px;
+}
+
+.imagery-btn:hover {
+  color: #5ab88f;
+  transition: all 0.7s ease 0s;
+}
+
+.product-name-img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.imagery-background {
+  background: #00866d;
+  max-width: 1400px;
+  max-height: 100%;
+  padding: 70px;
+  z-index: 99;
+}
+
+.imagery-1fr {
+  padding-left: 100px;
+}
+
+/* 07 ENDPOINTS */
+.endpoints-section {
+  display: flex;
+  justify-content: center;
+  background: #efefef;
+}
+
+.intuitive-endpoints {
+  color: #0d0d0d;
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 55px;
+  text-align: center;
+  padding-bottom: 60px;
+  padding-top: 53px;
+}
+
+.endpoints-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.endpoint-item {
+  padding: 14px 26px;
+  gap: 10px;
+  /* position: absolute; */
+  font-weight: 600;
+  font-size: 1rem;
+  width: 190px;
+  height: 20px;
+  color: #f5f5f5;
+  background: #00866d;
+  align-items: center;
+  text-align: center;
+}
+
+/* Terminal */
+.endpoints-background {
+  width: 797px;
+  height: 253px;
+  background: #0d0d0d;
+  border-radius: 5px;
+  /* display: inline-block; */
+  justify-content: center;
+  padding-top: 10px;
+  margin-top: 20px;
+}
+
+.endpoint-code {
+  font: "Source Code Pro";
+  max-width: 1300px;
+  /* padding: 40px 20px; */
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+  align-items: center;
+}
+
+.number {
+  color: #9f9f9f;
+  position: relative;
+  left: -20px;
+  line-height: 26px;
+  padding-top: 5px;
+  z-index: 1;
+  /* padding-bottom: 1px; */
+}
+
+.endpoints-content {
+  color: #efefef;
+  position: relative;
+  left: -320px;
+  width: 460px;
+  line-height: 26px;
+  z-index: 1;
+}
+
+.endpoints-content span {
+  color: #5ab88f;
+}
+
+.endpoints {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  margin-top: 20px;
+}
+
+.try-test-data {
+  display: flex;
+  justify-content: center;
+}
+
+.try-btn {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: #f5f5f5;
+  background: #00866d;
+  font-weight: 600;
+  font-size: 0.93rem;
+  border-radius: 1000px;
+  padding: 10px 25px;
+}
+
+/* 08 TECHNOLOGY FIRST */
+.tech-first {
+  width: 1312px;
+  height: 427px;
+  background: #00866d;
+  border-radius: 30px;
+  margin: 80px 100px;
+  place-content: center;
+}
+
+.tech-first h3 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #ffffff;
+  display: inline-block;
+  text-align: center;
+  padding-left: 150px;
+  padding-top: 65px;
+  position: absolute;
+}
+
+.lines {
+  padding-left: 130px;
+  padding-bottom: 50px;
+}
+
+.tech-content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding-left: 240px;
+  padding-right: 210px;
+  margin-bottom: -180px;
+}
+
+.tech-items {
+  position: relative;
+  top: -345px;
+}
+
+.tech-items h4 {
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 100%;
+  display: flex;
+  align-items: center;
+  color: #f5f5f5;
+  margin-bottom: 18px;
+  margin-top: 11px;
+}
+
+.tech-items p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 21px;
+  color: #f5f5f5;
+}
+
+/* 10 CALL TO ACTION */
+.cta-background {
+  background: #00866d;
+  max-width: 1600px;
+  padding: 70px;
+}
+
+.build-today {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 55px;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 90px;
+}
+
+.what-do {
+  display: flex;
+  justify-content: center;
+}
+
+.cta-API {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: #f5f5f5;
+  background: #5ab88f;
+  font-weight: 600;
+  font-size: 0.93rem;
+  border-radius: 1000px;
+  padding: 10px 25px;
+  margin-right: 10px;
+}
+
+.cta-sales {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: #f5f5f5;
+  background: #00866d;
+  font-weight: 600;
+  font-size: 0.93rem;
+  border-radius: 1000px;
+  padding: 10px 25px;
+  margin-left: 10px;
+  border: 1px solid #f5f5f5;
+}
+
+/* 11 OUR TEAM */
+.team-section {
+  max-width: 1300px;
+  /* padding: 40px 20px; */
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 100px;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 70px;
+}
+
+.team-section h2 {
+  font-size: 3rem;
+  line-height: 55px;
+  font-weight: 600;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.plant-future {
+  padding: 80px 20px 60px 20px;
+}

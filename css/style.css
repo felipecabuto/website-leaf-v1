@@ -1,6 +1,11 @@
+/* global */
 @import './global.css';
-@import './style-index.css';
 @import './header.css';
 @import './footer.css';
-@import './style.product.css';
-@import './new-section.css'
+
+/* index.html */
+@import './index.css';
+@import './card-section.css';
+
+/* product.html */
+@import './product.css'

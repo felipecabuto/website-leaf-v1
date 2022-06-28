@@ -17,7 +17,7 @@
       <img src="images/logo.svg" alt="Leaf" />
     </div>
     <!-- Links -->
-    <nav>
+    <nav aria-label="primary">
       <ul class="nav-bar">
         <li class="nav-bar_item dropdown"><a class="header-links" href="#">Products</a>
           <ul class="project">
@@ -62,7 +62,7 @@
       </ul>
     </nav>
     <!-- Access Buttons -->
-    <nav>
+    <nav aria-label="access">
       <ul class="header-btn nav-bar">
         <li class="signin-btn">
           <a href="https://withleaf.io/login/"></a>Sign In
@@ -221,19 +221,19 @@
           <li>8</li>
           <li>9</li>
         </ul>
-          <ul class="endpoints-content">
-            <li><span>const axios</span> = require('axios')</li>
-            <li><span>const TOKEN</span> = 'YOUR_TOKEN'</li><br>
-            <li></li>
-            <li><span>const endpoint</span> = 'https://api.withleaf.io/services/fields/api/fields'</li>
-            <li><span>const headers</span> = { 'Authorization': `Bearer ${TOKEN}`}</li><br>
-            <li></li>
-            <li><span>axios.get</span>(endpoint, { headers })</li>
-            <li><span>.then</span>(<span>res</span> => <span>console</span>.<span>log</span>(res.data))</li>
-            <li><span>.catch</span>(console.error)</li>
-          </ul>
-          <img src="" alt="">
-        </div>
+        <ul class="endpoints-content">
+          <li><span>const axios</span> = require('axios')</li>
+          <li><span>const TOKEN</span> = 'YOUR_TOKEN'</li><br>
+          <li></li>
+          <li><span>const endpoint</span> = 'https://api.withleaf.io/services/fields/api/fields'</li>
+          <li><span>const headers</span> = { 'Authorization': `Bearer ${TOKEN}`}</li><br>
+          <li></li>
+          <li><span>axios.get</span>(endpoint, { headers })</li>
+          <li><span>.then</span>(<span>res</span> => <span>console</span>.<span>log</span>(res.data))</li>
+          <li><span>.catch</span>(console.error)</li>
+        </ul>
+        <img src="" alt="">
+      </div>
       <!-- <img class="endpoints" src="images/endpoints.png" alt="" /> -->
       <div class="try-test-data">
         <a class="try-btn" href="">Try with test data</a>
@@ -271,7 +271,7 @@
     <!-- <img class="tech-first" src="images/technology-first.png" alt="" /> -->
   </section>
 
-  <!-- 00 NEW SECTION -->
+  <!-- 09 CARD SECTION -->
   <section id="section-01" class="full-screen bg-navy text-white">
     <div class="clip">
       <nav class="controls">
@@ -298,7 +298,7 @@
       </nav>
     </div>
     <div class="container-outer">
-      <div class="container">    
+      <div class="container">
         <div class="img-cards">
           <img src="images/01-card.png" alt="">
         </div>
@@ -342,7 +342,7 @@
       </nav>
     </div>
     <div class="container-outer">
-      <div class="container">    
+      <div class="container">
         <div class="img-cards">
           <img src="images/02-card.png" alt="">
         </div>
@@ -386,7 +386,7 @@
       </nav>
     </div>
     <div class="container-outer">
-      <div class="container">    
+      <div class="container">
         <div class="img-cards">
           <img src="images/03-card.png" alt="">
         </div>
@@ -430,7 +430,7 @@
       </nav>
     </div>
     <div class="container-outer">
-      <div class="container">    
+      <div class="container">
         <div class="img-cards">
           <img src="images/04-card.png" alt="">
         </div>
@@ -447,7 +447,7 @@
       </div>
     </div>
   </section>
-  
+
   <section id="section-05" class="full-screen bg-navy text-white">
     <div class="clip">
       <nav class="controls controls-white">
@@ -474,7 +474,7 @@
       </nav>
     </div>
     <div class="container-outer">
-      <div class="container">    
+      <div class="container">
         <div class="img-cards">
           <img src="images/05-card.png" alt="">
         </div>
@@ -491,7 +491,7 @@
       </div>
     </div>
   </section>
-  <!-- 09 CALL TO ACTION -->
+  <!-- 10 CALL TO ACTION -->
   <section class="cta-background">
     <div>
       <h2 class="build-today">What will you build today?</h2>
@@ -501,7 +501,7 @@
       </div>
     </div>
   </section>
-  <!-- 10 OUR TEAM -->
+  <!-- 11 OUR TEAM -->
   <section class="team-section">
     <div class="plant-future">
       <h2>Plant the<br>future</h2>
