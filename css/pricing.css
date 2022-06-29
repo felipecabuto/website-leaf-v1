@@ -1,0 +1,198 @@
+/* #01 CALL TO ACTION */
+.main-pricing {
+  width: 1512px;
+  height: 491px;
+  background: #0F876E;
+}
+
+.container-pricing {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  padding: 150px 170px 0px 170px;
+}
+
+.card-01 {
+  width: 346px;
+  height: 511px;
+  background: #F5F5F5;
+  border: 1px solid #5AB88F;
+  border-radius: 30px;
+  display: grid;
+  text-align: center;
+  align-content: center;
+  place-self: center;
+}
+
+.card-02 {
+  width: 346px;
+  height: 535px;
+  background: #5AB88F;
+  border: 1px solid #5AB88F;
+  border-radius: 30px;
+  display: grid;
+  text-align: center;
+  align-content: center;
+  place-self: center;
+}
+
+.card-03 {
+  width: 346px;
+  height: 511px;
+  background: #F5F5F5;
+  border: 1px solid #5AB88F;
+  border-radius: 30px;
+  display: grid;
+  text-align: center;
+  align-content: center;
+  place-self: center;
+}
+
+.line-card {
+  width: 200px;
+  height: 0px;
+  left: 259px;
+  top: 453px;
+  border: 1px solid #9F9F9F;
+}
+
+.line-card-g {
+  width: 200px;
+  height: 0px;
+  left: 259px;
+  top: 453px;
+  border: 1px solid #F5F5F5;
+}
+
+.align-img {
+  place-self: center;
+}
+
+/* card content */
+.card-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 100%;
+  text-align: center;
+  color: #0B5E57;
+  padding: 30px;
+}
+  
+.card-sub-title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 100%;
+  text-align: center;
+  color: #0D0D0D;
+  padding: 30px;
+}
+  
+.card-text {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 21px;
+  text-align: center;
+  color: #9F9F9F;
+  padding: 30px 0px 60px 0px;
+}
+  
+.card-btn {
+  padding: 10px 25px;
+  width: 149px;
+  height: 42px;
+  border: 1px solid #00866D;
+  border-radius: 1000px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #00866D;
+}
+
+/* green card content */
+.card-title-g {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 100%;
+  text-align: center;  
+  color: #FFFFFF;
+  padding: 30px;
+}
+  
+.card-sub-title-g {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 100%;
+  text-align: center;    
+  color: #FFFFFF;
+  padding: 30px;
+}
+  
+.card-text-g {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 21px;
+  text-align: center;
+  color: #F5F5F5;
+  padding: 30px 0px 60px 0px;
+}
+  
+.card-btn-g {
+  padding: 10px 25px;
+  width: 149px;
+  height: 42px;
+  background: #F5F5F5;
+  border-radius: 1000px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #00866D;
+}
+  
+/* #02 BUSINESS MODEL */
+.business-model {
+  display: grid;
+  align-items: center;
+  padding-top: 250px;
+}
+
+.business-model-content {
+  width: 1250px;
+  height: 314px;
+  background: #00866D;
+  border-radius: 30px;
+  display: grid;
+  text-align: center;
+  align-content: center;
+  place-self: center;
+}
+
+.bm-title {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 55px;
+  color: #FFFFFF;
+}
+
+.bm-text {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 21px;
+  color: #EFEFEF;
+  padding: 20px 0px 20px 0px;
+}
+
+.bm-btn {
+  padding: 10px 25px;
+  width: 149px;
+  height: 42px;
+  border: 1px solid #00866D;
+  border-radius: 1000px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #00866D;
+  background: #F5F5F5;
+  display: grid;
+  align-content: center;
+  place-self: center;
+}

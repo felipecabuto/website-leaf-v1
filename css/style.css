@@ -1,6 +1,7 @@
 /* global */
 @import './global.css';
 @import './header.css';
+@import './header-green.css';
 @import './footer.css';
 
 /* index.html */
@@ -8,4 +9,7 @@
 @import './card-section.css';
 
 /* product.html */
-@import './product.css'
+@import './product.css';
+
+/* pricing.html */
+@import './pricing.css'
