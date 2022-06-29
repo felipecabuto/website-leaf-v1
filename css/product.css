@@ -68,7 +68,7 @@
     padding: 60px 0px 73px 0px;
     gap: 10px;
     font-weight: 700;
-    font-size: 0.75rem;
+    font-size: 1rem;
     color: #404040;
     text-transform: uppercase;
 }
@@ -103,22 +103,6 @@ hr {
     text-align: center;
 }
 
-.brands-subtittle {
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 100%;
-    color: #0D0D0D;
-    padding-top: 10px;
-}
-
-.brands-sub-text {
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 21px;
-    color: #404040;
-    padding-top: 10px;
-}
-
 .one {
     width: 112px;
     height: 60px;
@@ -135,11 +119,32 @@ hr {
     gap: 30px;
 }
 
-.brands {
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
+.brands-content {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+
+.brands-img {
     justify-content: space-between;
+    max-width: 40%;
+}
+
+.brands-subtittle {
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 100%;
+    color: #0D0D0D;
+    padding-top: 10px;
+}
+
+.brands-sub-text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    color: #404040;
+    padding-top: 10px;
 }
 
 /* 04 MACHINE DATA */
@@ -147,6 +152,7 @@ hr {
     width: 1512px;
     height: 754px;
     background: #00866D;
+    padding-top: 80px;
 }
 
 .machine-btn-sec {
@@ -156,24 +162,180 @@ hr {
 
 .data-menu {
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
 }
 
 .intuitive-btn {
     padding: 10px 15px;
-    gap: 15px;    
     width: 149px;
-    height: 41px;
+    height: 25px;
     background: #5AB88F;
     border-radius: 10px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intuitive-btn a {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #F5F5F5;
 }
 
 .sample-btn {
     padding: 10px 15px;
     gap: 15px;    
     width: 149px;
-    height: 41px;
+    height: 25px;
     background: #F5F5F5;
     border-radius: 0px 10px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.sample-btn a {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    color: #5AB88F;
+}
+
+.line {
+    max-width: 1200px;
+    padding: 0;
+    margin: auto;
+    border: 1px solid #F3F3F3;;
+}
+
+/* Main Part */
+.machine-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.data-menu-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.data-menu-green {
+    padding: 10px 15px;
+    width: 121px;
+    height: 25px;
+    background: #5AB88F;
+    border-radius: 10px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.data-menu-green a {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #F5F5F5;
+}
+
+.data-menu-white {
+    padding: 10px 15px;
+    width: 121px;
+    height: 25px;
+    background: #F5F5F5;
+    border-radius: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.data-menu-white a {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    color: #5AB88F;
+}
+
+/* Terminal */
+.endpoints-background2 {
+    justify-content: center;
+    width: 600px;
+    height: 542px;
+    background: #00866D;
+    border: 2px solid #F3F3F3;
+    border-radius: 10px;
+    position: relative;
+    bottom: 45px;
+    z-index: 1;
+}
+  
+  .endpoint-code2 {
+    font: "Source Code Pro";
+    max-width: 1300px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+    align-items: center;
+}
+  
+  .number2 {
+    color: #F4F4F4;
+    font-weight: 400;
+    font-size: 1rem;
+    position: relative;
+    left: 25px;
+    line-height: 26px;
+    padding-top: 5px;
+    z-index: 1;
+    bottom: 2px;
+  }
+  
+  .endpoints-content2 {
+    color: #efefef;
+    position: relative;
+    left: -90px;
+    width: 460px;
+    line-height: 26px;
+    z-index: 1;
+  }
+  
+  .endpoints-content2 span {
+    color: #5ab88f;
+  }
+
+  .start-build {
+    display: grid;
+    align-content: center;
+  }
+
+  .start-build h2 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 55px;
+    color: #F5F5F5;
+  }
+
+  .start-build p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    color: #F5F5F5;
+    padding: 30px 0px 90px 0px;
+  }
+
+  .see-btn {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;;
+    /* padding: 20px 0px 20px 0px; */
+  }
+  
+  .see-btn:hover {
+    color: #5AB88F;
+    transition: all 0.7s ease 0s;
+  }

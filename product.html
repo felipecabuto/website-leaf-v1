@@ -135,99 +135,105 @@
         <h2 class="text-center-tittle"><span class="one">One</span> integration <img src="images/foward.png" alt=""> instant compatibility<br>to multiple machine brands</h2>
       </div>
       <div class="brands-machine">
-        <div>
-          <img class="brands" src="images/01-differentials.png" alt="">
+        <div class="brands-content">
+          <img class="brands-img" src="images/01-differentials.png" alt="">
           <h3 class="brands-subtittle">Speed and simplicity</h3>
           <p class="brands-sub-text">Immediately get the data you need without having<br>to build or maintain excess infrastructure.</p>
         </div>
-        <div>
-          <img class="brands" src="images/02-differentials.png" alt="">
+        <div class="brands-content">
+          <img class="brands-img" src="images/02-differentials.png" alt="">
           <h3 class="brands-subtittle">Focus on building customer value</h3>
           <p class="brands-sub-text">Create new value for your customers while Leaf<br>takes care of the background development,<br>maintenance and scaling.</p>
         </div>
-        <div>
-          <img class="brands" src="images/03-differentials.png" alt="">
+        <div class="brands-content">
+          <img class="brands-img" src="images/03-differentials.png" alt="">
           <h3 class="brands-subtittle">Unlock new use cases</h3>
           <p class="brands-sub-text">Use data from multiple machines, and even multiple<br>brands merged together to form full operations.</p>
         </div>
       </div>
     </section>
-
     <!-- 04 MACHINE DATA -->
     <section class="machine-data-section">
       <div class="machine-btn-sec">
         <nav>
           <ul class="data-menu">
-            <li class="intuitive-btn">Intuitive endpoints</li>
-            <li class="sample-btn">Sample response</li>
+            <li class="intuitive-btn"><a href="#">Intuitive endpoints</a></li>
+            <li class="sample-btn"><a href="#">Sample response</a></li>
           </ul>
         </nav>
-        <div>
-          <hr>
-        </div>
       </div>
-
-      <div>
+      <hr class="line">
+      <!-- Menu -->
+      <div class="machine-container">
         <div>
-          <nav>
-            <ul>
-              <li>Import field</li>
-              <li>Get operations</li>
-              <li>Get summary</li>
-              <li>Convert file</li>
+            <nav>
+              <ul class="data-menu-items">
+                <li class="data-menu-green"><a href="">Import field</a></li>
+                <li class="data-menu-white"><a href="">Get operations</a></li>
+                <li class="data-menu-white"><a href="">Get summary</a></li>
+                <li class="data-menu-white"><a href="">Convert file</a></li>
+              </ul>
+            </nav>
+          <!-- Terminal -->
+          <div class="endpoints-background2 endpoint-code2">
+            <ul class="number2">
+              <li>1</li>
+              <li>2</li>
+              <li>3</li>
+              <li>4</li>
+              <li>5</li>
+              <li>6</li>
+              <li>7</li>
+              <li>8</li>
+              <li>9</li>
             </ul>
-          </nav>
+            <ul class="endpoints-content2">
+              <li><span>const axios</span> = require('axios')</li>
+              <li><span>const TOKEN</span> = 'YOUR_TOKEN'</li><br>
+              <li></li>
+              <li><span>const endpoint</span> = 'https://api.withleaf.io/services/fields/api/fields'</li>
+              <li><span>const headers</span> = { 'Authorization': `Bearer ${TOKEN}`}</li><br>
+              <li></li>
+              <li><span>axios.get</span>(endpoint, { headers })</li>
+              <li><span>.then</span>(<span>res</span> => <span>console</span>.<span>log</span>(res.data))</li>
+              <li><span>.catch</span>(console.error)</li>
+            </ul>
+            <img src="" alt="">
+          </div>
         </div>
-      </div>
-
-      <div>
-        <h2>Start building with<br>machine data</h2>
-        <p>After authentication, Leaf's API returns a standardized JSON for planting,<br>application, and harvest operations with data summaries, full datasets,<br> and rendered maps.</p>
-        <a class="learn-more-btn-white">
-          See documentation
-          <svg
-            width="21"
-            height="22"
-            viewBox="0 0 21 22"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
-              d="M15.1402 10.253L9.44361 4.55639L10.5 3.5L18 11L10.5 18.5L9.44361 17.4436L15.1402 11.747H3V10.253h35.1402Z"
-              fill="#00866D"
-            />
-          </svg>
-        </a>
+        <!-- Text -->
+        <div class="start-build">
+          <h2>Start building with<br>machine data</h2>
+          <p>After authentication, Leaf's API returns a standardized JSON for planting,<br>application, and harvest operations with data summaries, full datasets,<br> and rendered maps.</p>
+          <a class="see-btn">
+            See documentation <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M16.2525 9.04044L8.62623 1.41421L10.0404 0L20.0809 10.0404L10.0404 20.0809L8.62623 18.6667L16.2525 11.0404H0V9.04044H16.2525Z" fill="white"/>
+              </svg>              
+          </a>
+        </div>
       </div>
     </section>
-
     <!-- 05 TESTIMONIAL -->
     <section>
       <div>
-        <p>“Curabitur ullamcorper et ligula in malesuada. Duis lobortis sem in massa fermentum finibus. Curabitur eu<br>erat vel urna ultricies consectetur sit amet et eros. Proin ultricies tempus elit non molestie. Nullam nec<br>lacinia eros. Sed sed nunc aliquet, tincidunt elit non, ornare mauris.”</p>
-      </div>
-      <div>
-        <img src="images/test-01.png" alt="">
-        <svg width="1" height="30" viewBox="0 0 1 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <line x1="0.5" y1="-2.18557e-08" x2="0.500001" y2="30" stroke="#777777"/>
-          </svg>
-        <p>John Doe, <span>Traction</span></p>
-        <p>Related products:</p>
         <div>
-          <img src="images/product-01.png" alt="">
-          <p>Imagery</p>
-          <p>Easy implementation of satellite and<br>drone imagery data. </p>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe vel alias, libero deserunt eligendi mollitia fugit quam nostrum id est qui quae nobis quis commodi! Dicta doloremque ullam tempora quo.</p>
+          <a href=""></a>
         </div>
         <div>
-          <img src="images/product-02.png" alt="">
-          <p>Field Boundaries</p>
-          <p>Integrate consistent field boundaries across 120+ platforms.</p>
+          <img src="images/01-client.png" alt="">
         </div>
       </div>
-    </section>
 
+      <nav>
+        <ul>
+          <li><img src="" alt=""></li>
+          <li><img src="" alt=""></li>
+          <li><img src="" alt=""></li>
+          <li><img src="" alt=""></li>
+        </ul>
+      </nav>
+    </section>
     <!-- 06 CALL TO ACTION -->
     <section class="cta-background">
       <div>
@@ -238,96 +244,91 @@
         </div>
       </div>
     </section>
+  <!-- FOOTER -->
+  <footer>
+    <div class="container-footer">
+      <div class="row-footer">
+        <img class="logo-footer" src="images/logo-footer.svg" alt="">
 
-    <!-- FOOTER -->
-    <footer>
-      <div class="container-footer">
-        
-        <div class="row-footer">
-          <img class="logo-footer" src="images/logo-footer.svg" alt="">
+        <div class="footer-col">
+          <h4>Products</h4>
+          <ul>
+            <li><a href="">Lorem</a></li>
+            <li><a href="">Lorem</a></li>
+            <li><a href="">Lorem</a></li>
+            <li><a href="">Lorem</a></li>
+          </ul>
+        </div>
 
-          <div class="footer-col">
-            <h4>Products</h4>
-              <ul>
-                <li><a href="">Lorem</a></li>
-                <li><a href="">Lorem</a></li>
-                <li><a href="">Lorem</a></li>
-                <li><a href="">Lorem</a></li>
-              </ul>            
-          </div>
+        <div class="footer-col">
+          <h4>Pricing</h4>
+          <ul>
+            <li><a href="">Lorem</a></li>
+            <li><a href="">Lorem</a></li>
+            <li><a href="">Lorem</a></li>
+            <li><a href="">Lorem</a></li>
+          </ul>
+        </div>
 
-          <div class="footer-col">
-            <h4>Pricing</h4>
-              <ul>
-                <li><a href="">Lorem</a></li>
-                <li><a href="">Lorem</a></li>
-                <li><a href="">Lorem</a></li>
-                <li><a href="">Lorem</a></li>
-              </ul>            
-          </div>
+        <div class="footer-col">
+          <h4>Documentation</h4>
+          <ul>
+            <li><a href="">Lorem</a></li>
+            <li><a href="">Lorem</a></li>
+            <li><a href="">Lorem</a></li>
+            <li><a href="">Lorem</a></li>
+          </ul>
+        </div>
 
-          <div class="footer-col">
-            <h4>Documentation</h4>
-              <ul>
-                <li><a href="">Lorem</a></li>
-                <li><a href="">Lorem</a></li>
-                <li><a href="">Lorem</a></li>
-                <li><a href="">Lorem</a></li>
-              </ul>            
-          </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="">Lorem</a></li>
+            <li><a href="">Lorem</a></li>
+            <li><a href="">Lorem</a></li>
+            <li><a href="">Lorem</a></li>
+          </ul>
+        </div>
 
-          <div class="footer-col">
-            <h4>Company</h4>
-              <ul>
-                <li><a href="">Lorem</a></li>
-                <li><a href="">Lorem</a></li>
-                <li><a href="">Lorem</a></li>
-                <li><a href="">Lorem</a></li>
-              </ul>            
-          </div>
-
-          <div class="footer-col">
-            <h4>Leaf’s newsletter includes the latest product<br>announcements, industry insights, and more.</h4>
-              <div class="form-sub">
-                <form action="">
-                  <input type="email" placeholder="Digite o seu e-mail">
-                  <a href="form-sub">Subscribe</a>
-                  <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M16.2525 9.04044L8.62623 1.41421L10.0404 0L20.0809 10.0404L10.0404 20.0809L8.62623 18.6667L16.2525 11.0404H0V9.04044H16.2525Z" fill="#F2F2F2"/>
-                    </svg>                    
-                </form>                
-          </div>
-
+        <div class="footer-col">
+          <h4>Leaf’s newsletter includes the latest product<br>announcements, industry insights, and more.</h4>
+            <div class="form-sub">
+              <form action="">
+                <input type="email" placeholder="Digite o seu e-mail">
+                <a href="form-sub">Subscribe</a>
+                <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M16.2525 9.04044L8.62623 1.41421L10.0404 0L20.0809 10.0404L10.0404 20.0809L8.62623 18.6667L16.2525 11.0404H0V9.04044H16.2525Z" fill="#F2F2F2" />
+                </svg>
+              </form>
+            </div>
         </div>
       </div>
-
       <!-- End Footer -->
       <hr class="div-footer">
       <div class="end-footer">
         <div class="end-footer-items">
           <p>Copyright 2022 Leaf Agriculture. All rights reserved.</p>
           <a href="#">Terms of Service</a>
-          <a href="#">Privacy Policy </a>            
-        </div>           
+          <a href="#">Privacy Policy </a>
+        </div>
 
         <div class="social-media">
           <a href="https://www.linkedin.com/company/leaf-agriculture/mycompany/" target="_blank">
             <img class="distance" src="images/linkedin.svg" alt="Linkedin">
-          </a>          
+          </a>
           <a href="https://www.instagram.com/leaf_agriculture_brasil/" target="_blank">
             <img class="distance" src="images/instagram.svg" alt="Instagram">
-          </a>          
+          </a>
           <a href="https://www.facebook.com/buildwithleaf/" target="_blank">
             <img class="distance" src="images/facebook.svg" alt="Facebook">
-          </a>          
+          </a>
         </div>
-      </div>
-
+      </div>      
+    </div>
       <!-- Contact Button -->
       <div>
         <a href="#"> <img class="contact-button" src="images/msg.png" alt=""></a>
       </div>
-
-    </footer>
+  </footer>
   </body>
 </html>

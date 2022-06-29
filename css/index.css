@@ -316,24 +316,24 @@
 
 .endpoints-menu {
   display: flex;
-  flex-wrap: wrap;
   gap: 5px;
-  justify-content: center;
   padding-bottom: 20px;
 }
 
 .endpoint-item {
   padding: 14px 26px;
   gap: 10px;
-  /* position: absolute; */
-  font-weight: 600;
-  font-size: 1rem;
   width: 190px;
   height: 20px;
-  color: #f5f5f5;
   background: #00866d;
   align-items: center;
   text-align: center;
+}
+
+.endpoint-item a {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #f5f5f5;
 }
 
 /* Terminal */
@@ -342,7 +342,6 @@
   height: 253px;
   background: #0d0d0d;
   border-radius: 5px;
-  /* display: inline-block; */
   justify-content: center;
   padding-top: 10px;
   margin-top: 20px;
@@ -351,7 +350,6 @@
 .endpoint-code {
   font: "Source Code Pro";
   max-width: 1300px;
-  /* padding: 40px 20px; */
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -366,7 +364,6 @@
   line-height: 26px;
   padding-top: 5px;
   z-index: 1;
-  /* padding-bottom: 1px; */
 }
 
 .endpoints-content {
@@ -380,14 +377,6 @@
 
 .endpoints-content span {
   color: #5ab88f;
-}
-
-.endpoints {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 10px;
-  margin-top: 20px;
 }
 
 .try-test-data {
