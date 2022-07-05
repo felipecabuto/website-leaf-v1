@@ -454,7 +454,7 @@
   color: #f5f5f5;
 }
 
-/* 10 CALL TO ACTION */
+/* 09 CALL TO ACTION */
 .cta-background {
   background: #00866d;
   max-width: 1600px;
@@ -501,27 +501,74 @@
   border: 1px solid #f5f5f5;
 }
 
-/* 11 OUR TEAM */
-.team-section {
-  max-width: 1300px;
-  /* padding: 40px 20px; */
-  margin: 0 auto;
+/* 10 CARD SECTION */
+.next-card {
   display: grid;
-  grid-template-columns: 1fr 3fr;
-  gap: 100px;
-  align-items: center;
-  padding-top: 30px;
-  padding-bottom: 70px;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 50px;
 }
 
-.team-section h2 {
-  font-size: 3rem;
-  line-height: 55px;
+.next-card h3 {
+  display: grid;
+  align-content: center;
   font-weight: 600;
-  margin-top: 15px;
-  margin-bottom: 10px;
+  font-size: 24px;
+  line-height: 100%;
+  color: #0D0D0D;
+  padding-left: 125px;
 }
 
-.plant-future {
-  padding: 80px 20px 60px 20px;
+.next-btn {
+  cursor: pointer;
+  display: flex;
+  justify-content: end;
+  padding-right: 125px;
+  gap: 5px;
+}
+
+.next-btn img {
+  padding: 5px;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: space-around;
+  padding: 20px 50px 80px 50px;
+}
+
+.card-container h4 {
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 100%;
+  color: #000000;
+  margin: 10px 0px;
+}
+
+.card-container p {
+  font-weight: 400;
+  font-size: 0.93rem;
+  line-height: 21px;
+  color: #9F9F9F;
+}
+
+.card-content {
+  width: 320px;
+  height: 360px;
+  background: #F5F5F5;
+  border-radius: 20px;
+  display: grid;
+  justify-content: center;
+  padding-top: 15px;
+  border: 1px solid #9f9f9f4c;
+}
+
+.card-articles {
+  width: 320px;
+  height: 360px;
+  background: #9F9F9F;
+  mix-blend-mode: multiply;
+  opacity: 0.15;
+  filter: blur(60px);
+  border-radius: 20px;
 }

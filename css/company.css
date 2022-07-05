@@ -1,0 +1,24 @@
+/* OUR TEAM */
+.team-section {
+  max-width: 1300px;
+  /* padding: 40px 20px; */
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 100px;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 70px;
+}
+
+.team-section h2 {
+  font-size: 3rem;
+  line-height: 55px;
+  font-weight: 600;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.plant-future {
+  padding: 80px 20px 60px 20px;
+}

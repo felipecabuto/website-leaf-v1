@@ -4,12 +4,14 @@
 @import './header-green.css';
 @import './footer.css';
 
-/* index.html */
+/* index.html */ 
 @import './index.css';
-@import './card-section.css';
 
 /* product.html */
 @import './product.css';
 
 /* pricing.html */
-@import './pricing.css'
+@import './pricing.css';
+
+/* company.html */
+@import './company.css'

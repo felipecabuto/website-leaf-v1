@@ -1,3 +1,4 @@
+// Pricing Page - #03 FAQ
 const accordionBtns = document.querySelectorAll(".accordion");
 
 accordionBtns.forEach((accordion) => {
