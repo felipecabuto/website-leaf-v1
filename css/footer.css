@@ -50,17 +50,59 @@ footer{
     padding-left: 5px;
 }
 
-.footer-col .form-sub input {
-    padding: 13px 70px 13px 20px;
-    border: 1px solid #F2F2F2;
-    border-radius: 30px;
-    background: #00866D;
+/* Last Col */
+.last-col {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-right: 200px;
+}
+
+.last-col p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
     color: #F2F2F2;
+}
+
+.last-col h4 {
+    margin-bottom: 0px;
+}
+
+form {
+    display: flex;
+}
+
+.footer-col .form-sub input {
+    padding: 13px 145px 13px 20px;
+    border: 1px solid #5AB88F;
+    border-radius: 30px;
+    background: #00866D;    
     font-weight: 500;
+    
+}
+
+input::placeholder {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    color: #F5F5F5;
 }
 
 .form-sub a {
-    color: white
+    position: relative;
+    right: 135px;
+    font-weight: 600;
+    line-height: 1.3;
+    background: #5AB88F;
+    border-radius: 1000px;
+    color: #f5f5f5;
+    padding: 10px 15px;
+    display: flex;
+}
+
+.form-sub svg {
+    padding: 3px;
+    padding-left: 10px;
 }
 
 /* End Footer */
