@@ -1,6 +1,6 @@
 /* #01 CALL TO ACTION */
 .main-pricing {
-  width: 1512px;
+  max-width: 100%;
   height: 491px;
   background: #0F876E;
 }
