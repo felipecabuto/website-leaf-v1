@@ -1,4 +1,4 @@
-/* #01 CALL TO ACTION */
+/* CALL TO ACTION */
 .intro {
   max-width: 1300px;
   padding: 117px 142px;
@@ -65,7 +65,7 @@
   transition: all 0.7s ease 0s;
 }
 
-/* #02 CLIENTS */
+/* CLIENTS */
 .clients-section {
   padding: 0px 100px 50px 100px;
 }
@@ -296,7 +296,7 @@
   padding-left: 100px;
 }
 
-/* 07 ENDPOINTS */
+/* ENDPOINTS */
 .endpoints-section {
   display: flex;
   justify-content: center;
@@ -394,7 +394,7 @@
   padding: 10px 25px;
 }
 
-/* 08 TECHNOLOGY FIRST */
+/* TECHNOLOGY FIRST */
 .tech-first {
   width: 1312px;
   height: 427px;
@@ -454,7 +454,7 @@
   color: #f5f5f5;
 }
 
-/* 09 CALL TO ACTION */
+/* CALL TO ACTION */
 .cta-background {
   background: #00866d;
   max-width: 1600px;
@@ -501,7 +501,7 @@
   border: 1px solid #f5f5f5;
 }
 
-/* 10 CARD SECTION */
+/* CARD SECTION */
 .next-card {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -561,12 +561,6 @@
   justify-content: center;
   padding-top: 15px;
   border: 1px solid #9f9f9f4c;
-}
-
-#blur {
-  background: url('../images/blur.png');
-  display: grid;
-  position: relative;
 }
 
 .card-articles {

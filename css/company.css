@@ -22,7 +22,7 @@
   position: relative;
 }
 
-.container-company span {
+.food-word {
   width: 139px;
   height: 60px;
   border: 1px solid #F5F5F5;
@@ -54,14 +54,128 @@
   cursor: pointer;
 }
 
+/* BEST WAY */
+.best-way-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.best-way-img {
+  padding: 100px 0px 50px 140px;
+}
+
+.best-way-area {
+  display: flex;
+  align-self: center;
+  position: relative;
+  right: 120px;
+}
+
+.best-way {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 50px;
+  color: #9F9F9F;
+}
+
+/* NEXT */
+.center-gray {
+  display: flex;
+  place-content: center;
+}
+
+.gray {
+  width: 1256px;
+  height: 688px;
+  background: #D9D9D9;
+  border-radius: 40px;
+}
+
+/* VALUES */
+.values-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 100px 100px 0px 100px;
+}
+
+.values-card {
+  width: 408px;
+  height: 300px;
+  background: #5AB88F;
+  border-radius: 20px;
+  gap: 10px;
+  text-align: justify;
+  place-self: center;
+  justify-content: center;
+}
+
+.values-card h4 {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 55px;
+  color: #F5F5F5;
+  margin: 0;
+  padding-top: 50px; 
+  padding-left: 40px;
+}
+
+.values-card p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #F5F5F5;
+  padding-top: 15px;
+  padding-left: 40px;
+}
+
 /* OUR TEAM */
+.team-container {
+  display: flex;
+  justify-content: center;
+  padding: 60px 0px;
+}
+
+.team-container h1 {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 55px;
+  color: #000000;
+}
+
+.family-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+  padding: 0px 170px 50px 170px;
+}
+
+.brother {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 43px;
+  color: #000000;
+}
+
+.job {
+  display: inline;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.in {
+  position: relative;
+  top: 1px;
+}
+
+/* WITH US */
 .team-section {
   max-width: 1300px;
-  /* padding: 40px 20px; */
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 3fr;
-  gap: 100px;
+  /* gap: 100px; */
   align-items: center;
   padding-top: 30px;
   padding-bottom: 70px;
@@ -77,4 +191,16 @@
 
 .plant-future {
   padding: 80px 20px 60px 20px;
+}
+
+.plant-future h2 {
+  width: 320px;
+  padding-right: 30px;
+}
+
+.product-sub-team {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #9F9F9F;
 }

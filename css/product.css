@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@700&display=swap');
 
+/* CALL TO ACTION */
 .intro-products {
     max-width: 1300px;
     padding-left: 142px;
@@ -15,6 +16,10 @@
     background: #F2F2F2;
 }
 
+.cta-area {
+    padding-top: 50px;
+}
+
 .intro-products h1 {
     font-size: 3.87rem;
     line-height: 0.95;
@@ -25,13 +30,14 @@
     font-size: 0.75rem;
     font-weight: 700;
     color: #9F9F9F;
-    background: #EFEFEF;    
+    background: #EFEFEF;
     padding: 8px 16px;
-    margin-bottom: ;
+    margin-bottom: 10px;
     border-radius: 25px;
     text-transform: uppercase;
     display: inline-block;
     position: relative;
+    width: 700px;
 }
 
 .product-intro-sub {
@@ -50,7 +56,13 @@
     line-height: 140%;
 }
 
-/* 02 PRODUCTS */
+.intro-products img {
+    position: relative;
+    top: 50px;
+    right: 25px;
+}
+
+/* PRODUCTS */
 .products-section {
     display: flex;
     justify-content: center;
@@ -83,7 +95,7 @@ hr {
     border-top: 1px solid #9F9F9F;
 }
 
-/* #03 MACHINE BRANDS */
+/* MACHINE BRANDS */
 .machine-section-p {
     padding: 0px 100px 50px 100px;    
 }
@@ -147,7 +159,7 @@ hr {
     padding-top: 10px;
 }
 
-/* 04 MACHINE DATA */
+/* MACHINE DATA */
 .machine-data-section {
     width: 1512px;
     height: 754px;
@@ -338,4 +350,12 @@ hr {
   .see-btn:hover {
     color: #5AB88F;
     transition: all 0.7s ease 0s;
+  }
+
+  /* NEXT */
+  .next {
+    position: relative;
+    top: 10px;
+    left: 140px;
+    padding: 50px;
   }
