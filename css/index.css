@@ -34,30 +34,12 @@
   line-height: 140%;
 }
 
-.start-btn {
-  color: #f5f5f5;
-  font-weight: 600;
-  font-size: 0.93rem;
-  background: #00866d;
-  border-radius: 1000px;
-  padding: 10px 25px;
-}
-
-.start-btn:hover {
-  font-weight: 600;
-  background: #5ab88f;
-  border-radius: 1000px;
-  color: #f3f3f3;
-  padding: 10px 25px;
-  transition: all 0.7s ease 0s;
-}
-
 .sales-btn {
   font-weight: 600;
   font-size: 15px;
   line-height: 20px;
   color: #00866d;
-  color: #005E59;
+  color: #005e59;
   padding: 10px 25px;
 }
 
@@ -102,7 +84,7 @@
   height: 835px;
   left: 0px;
   top: 1084px;
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 30px 30px 0px 0px;
 }
 
@@ -115,7 +97,7 @@
   font-weight: 600;
   font-size: 48px;
   line-height: 55px;
-  color: #0D0D0D;
+  color: #0d0d0d;
   padding: 50px 50px 0px 100px;
 }
 
@@ -137,7 +119,7 @@
   font-size: 48px;
   line-height: 55px;
   text-align: center;
-  color: #0D0D0D;
+  color: #0d0d0d;
 }
 
 .values-sub {
@@ -347,11 +329,14 @@
 }
 
 .imagery-background {
+  position: relative;
+  bottom: 30px;
   background: #00866d;
   max-width: 1400px;
   max-height: 100%;
+  border-radius: 30px 30px 0px 0px;
   padding: 70px;
-  z-index: 99;
+  z-index: 1;
 }
 
 .imagery-1fr {
@@ -443,17 +428,7 @@
 .try-test-data {
   display: flex;
   justify-content: center;
-}
-
-.try-btn {
-  margin-top: 30px;
-  margin-bottom: 30px;
-  color: #f5f5f5;
-  background: #00866d;
-  font-weight: 600;
-  font-size: 0.93rem;
-  border-radius: 1000px;
-  padding: 10px 25px;
+  padding: 50px 0px;
 }
 
 /* TECHNOLOGY FIRST */
@@ -520,7 +495,7 @@
 .cta-background {
   background: #00866d;
   max-width: 1600px;
-  padding: 70px;
+  padding: 120px;
 }
 
 .build-today {
@@ -529,28 +504,49 @@
   font-size: 3rem;
   line-height: 55px;
   text-align: center;
-  padding-bottom: 20px;
-  padding-top: 90px;
 }
 
 .what-do {
   display: flex;
+  align-items: center;
   justify-content: center;
 }
 
-.cta-API {
-  margin-top: 30px;
-  margin-bottom: 30px;
+.light-green-btn {
+  /* margin-top: 30px;
+  margin-bottom: 30px; */
   color: #f5f5f5;
   background: #5ab88f;
   font-weight: 600;
   font-size: 0.93rem;
   border-radius: 1000px;
   padding: 10px 25px;
-  margin-right: 10px;
 }
 
-.cta-sales {
+.light-green-btn:hover {
+  font-weight: 600;
+  background: #005e59;
+  border-radius: 1000px;
+  color: #f3f3f3;
+  padding: 10px 25px;
+  transition: all 0.7s ease 0s;
+  cursor: pointer;
+}
+
+.light-green-btn:active {
+  transform: scale(0.95);
+}
+
+.light-green-btn:focus {
+  outline: none;
+}
+
+.light-green-btn.ghost {
+  background-color: transparent;
+  border-color: #ffffff;
+}
+
+.green-white-btn {
   margin-top: 30px;
   margin-bottom: 30px;
   color: #f5f5f5;
@@ -561,6 +557,29 @@
   padding: 10px 25px;
   margin-left: 10px;
   border: 1px solid #f5f5f5;
+}
+
+.green-white-btn:hover {
+  font-weight: 600;
+  background: #f5f5f5;
+  border-radius: 1000px;
+  color: #00866d;
+  padding: 10px 25px;
+  transition: all 0.7s ease 0s;
+  cursor: pointer;
+}
+
+.green-white-btn:active {
+  transform: scale(0.95);
+}
+
+.green-white-btn:focus {
+  outline: none;
+}
+
+.green-white-btn.ghost {
+  background-color: transparent;
+  border-color: #ffffff;
 }
 
 /* CARD SECTION */
@@ -576,7 +595,7 @@
   font-weight: 600;
   font-size: 24px;
   line-height: 100%;
-  color: #0D0D0D;
+  color: #0d0d0d;
   padding-left: 125px;
 }
 
@@ -611,13 +630,13 @@
   font-weight: 400;
   font-size: 0.93rem;
   line-height: 21px;
-  color: #9F9F9F;
+  color: #9f9f9f;
 }
 
 .card-content {
   width: 320px;
   height: 360px;
-  background: #F5F5F5;
+  background: #f5f5f5;
   border-radius: 20px;
   display: grid;
   justify-content: center;
@@ -628,7 +647,7 @@
 .card-articles {
   width: 320px;
   height: 360px;
-  background: #9F9F9F;
+  background: #9f9f9f;
   mix-blend-mode: multiply;
   opacity: 0.15;
   filter: blur(60px);

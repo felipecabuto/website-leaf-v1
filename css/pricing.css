@@ -96,16 +96,40 @@
   padding: 30px 0px 60px 0px;
 }
   
-.card-btn {
-  padding: 10px 25px;
-  width: 149px;
-  height: 42px;
-  border: 1px solid #00866D;
-  border-radius: 1000px;
+.white-green-btn {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: #00866d;
+  background: #f5f5f5;
   font-weight: 600;
-  font-size: 16px;
-  line-height: 22px;
-  color: #00866D;
+  font-size: 0.93rem;
+  border-radius: 1000px;
+  padding: 10px 25px;
+  margin-left: 10px;
+  border: 1px solid #00866d;
+}
+
+.white-green-btn:hover {
+  font-weight: 600;
+  background: #00866d;;
+  border-radius: 1000px;
+  color: #f5f5f5;
+  padding: 10px 25px;
+  transition: all 0.7s ease 0s;
+  cursor: pointer;
+}
+
+.white-green-btn:active {
+  transform: scale(0.95);
+}
+
+.white-green-btn:focus {
+  outline: none;
+}
+
+.white-green-btn.ghost {
+  background-color: transparent;
+  border-color: #ffffff;
 }
 
 /* green card content */
@@ -136,23 +160,49 @@
   padding: 30px 0px 60px 0px;
 }
   
-.card-btn-g {
-  padding: 10px 25px;
-  width: 149px;
-  height: 42px;
-  background: #F5F5F5;
-  border-radius: 1000px;
+.white-btn {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: #00866d;
+  background: #f5f5f5;
   font-weight: 600;
-  font-size: 16px;
-  line-height: 22px;
-  color: #00866D;
+  font-size: 0.93rem;
+  border-radius: 1000px;
+  padding: 10px 25px;
+  margin-left: 10px;
+  border: 1px solid #f5f5f5;
+}
+
+.white-btn:hover {
+  font-weight: 600;
+  background: #00866d;;
+  border-radius: 1000px;
+  color: #f5f5f5;
+  padding: 10px 25px;
+  transition: all 0.7s ease 0s;
+  cursor: pointer;
+  border: 1px solid #00866d;
+}
+
+.white-btn:active {
+  transform: scale(0.95);
+}
+
+.white-btn:focus {
+  outline: none;
+}
+
+.white-btn.ghost {
+  background-color: transparent;
+  border-color: #ffffff;
 }
   
 /* BUSINESS MODEL */
 .business-model {
-  display: grid;
-  align-items: center;
+  display: flex;
+  justify-content: center;
   padding-top: 250px;
+  text-align: center;
 }
 
 .business-model-content {
@@ -160,10 +210,10 @@
   height: 314px;
   background: #00866D;
   border-radius: 30px;
-  display: grid;
-  text-align: center;
-  align-content: center;
-  place-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .bm-title {
@@ -179,21 +229,6 @@
   line-height: 21px;
   color: #EFEFEF;
   padding: 20px 0px 20px 0px;
-}
-
-.bm-btn {
-  width: 149px;
-  height: 42px;
-  border: 1px solid #00866D;
-  border-radius: 1000px;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 22px;
-  color: #00866D;
-  background: #F5F5F5;
-  display: grid;
-  align-content: center;
-  place-self: center;
 }
 
 /* FAQ */
