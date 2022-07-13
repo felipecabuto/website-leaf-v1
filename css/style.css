@@ -14,4 +14,7 @@
 @import './pricing.css';
 
 /* company.html */
-@import './company.css'
+@import './company.css';
+
+/* blog.html */
+@import './blog.css'

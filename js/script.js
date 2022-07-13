@@ -1,4 +1,4 @@
-// Pricing Page - #03 FAQ
+// Pricing Page - FAQ
 const accordionBtns = document.querySelectorAll(".accordion");
 
 accordionBtns.forEach((accordion) => {
@@ -16,3 +16,14 @@ accordionBtns.forEach((accordion) => {
     }
   };
 });
+
+// Blog Page - Search Button
+const input = document.getElementById("search-input");
+const searchBtn = document.getElementById("search-btn");
+
+const expand = () => {
+  searchBtn.classList.toggle("close");
+  input.classList.toggle("square");
+};
+
+searchBtn.addEventListener("click", expand);
