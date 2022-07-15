@@ -208,7 +208,7 @@ nav .nav-bar .nav-bar_item a:hover {
 }
 
 /* Drop Content */
-.drop-content img {
+.drop-content {
   display: flex;
   flex-wrap: wrap;
 }
