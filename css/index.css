@@ -41,11 +41,11 @@
   color: #00866d;
   color: #005e59;
   padding: 10px 25px;
+  transition: all 0.7s ease 0s;
 }
 
 .sales-btn:hover {
   color: #5ab88f;
-  transition: all 0.7s ease 0s;
 }
 
 /* CLIENTS */
@@ -303,11 +303,11 @@
   line-height: 20px;
   color: #00866d;
   padding: 20px 0px 20px 0px;
+  transition: all 0.7s ease 0s;
 }
 
 .learn-more-btn:hover {
   color: #5ab88f;
-  transition: all 0.7s ease 0s;
 }
 
 .imagery-btn {
@@ -316,11 +316,11 @@
   line-height: 20px;
   color: #4de4a2;
   padding: 20px 0px 20px 0px;
+  transition: all 0.7s ease 0s;
 }
 
 .imagery-btn:hover {
   color: #5ab88f;
-  transition: all 0.7s ease 0s;
 }
 
 .product-name-img {
@@ -521,6 +521,7 @@
   font-size: 0.93rem;
   border-radius: 1000px;
   padding: 10px 25px;
+  transition: all 0.7s ease 0s;
 }
 
 .light-green-btn:hover {
@@ -529,7 +530,6 @@
   border-radius: 1000px;
   color: #f3f3f3;
   padding: 10px 25px;
-  transition: all 0.7s ease 0s;
   cursor: pointer;
 }
 
@@ -557,6 +557,7 @@
   padding: 10px 25px;
   margin-left: 10px;
   border: 1px solid #f5f5f5;
+  transition: all 0.7s ease 0s;
 }
 
 .green-white-btn:hover {
@@ -565,7 +566,6 @@
   border-radius: 1000px;
   color: #00866d;
   padding: 10px 25px;
-  transition: all 0.7s ease 0s;
   cursor: pointer;
 }
 

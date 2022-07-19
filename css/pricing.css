@@ -107,6 +107,7 @@
   padding: 10px 25px;
   margin-left: 10px;
   border: 1px solid #00866d;
+  transition: all 0.7s ease 0s;
 }
 
 .white-green-btn:hover {
@@ -115,7 +116,6 @@
   border-radius: 1000px;
   color: #f5f5f5;
   padding: 10px 25px;
-  transition: all 0.7s ease 0s;
   cursor: pointer;
 }
 
@@ -171,6 +171,7 @@
   padding: 10px 25px;
   margin-left: 10px;
   border: 1px solid #f5f5f5;
+  transition: all 0.7s ease 0s;
 }
 
 .white-btn:hover {
@@ -179,7 +180,6 @@
   border-radius: 1000px;
   color: #f5f5f5;
   padding: 10px 25px;
-  transition: all 0.7s ease 0s;
   cursor: pointer;
   border: 1px solid #00866d;
 }

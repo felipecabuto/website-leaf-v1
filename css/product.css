@@ -344,12 +344,12 @@ hr {
     font-size: 15px;
     line-height: 20px;
     color: #FFFFFF;;
+    transition: all 0.7s ease 0s;
     /* padding: 20px 0px 20px 0px; */
   }
   
   .see-btn:hover {
     color: #5AB88F;
-    transition: all 0.7s ease 0s;
   }
 
   /* NEXT */

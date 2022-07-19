@@ -169,11 +169,11 @@
   display: flex;
   place-content: end;
   padding-top: 50px;
+  transition: all 0.7s ease 0s;
 }
 
 .read-more-btn:hover {
   color: #5ab88f;
-  transition: all 0.7s ease 0s;
 }
 
 /* CARD BLOG */

@@ -1,5 +1,6 @@
 footer{
     background-color: #00866D;
+    background: linear-gradient(135deg, #00866D, #005E59);
     padding: 50px 0;
 }
 
@@ -106,13 +107,6 @@ input:focus{
     display: flex;
     align-items: center;
 }
-
-/* .form-sub a:hover {
-    background: #005E59;
-    color: #f5f5f5;
-    border: 1px solid #005E59;
-    transition: all 0.7s ease 0s;
-} */
 
 .form-sub svg {
     padding: 3px;
