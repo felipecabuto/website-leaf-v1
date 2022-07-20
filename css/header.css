@@ -101,8 +101,8 @@ nav .nav-bar .nav-bar_item .header-links:hover:after {
 .nav-bar .dropdown .project {
   position: absolute;
   transform: translateX(-20px) translateY(5px);
-  height: 229px;
-  width: 544px;
+  height: 160px;
+  width: 485px;
   background: #ffffff;
   box-shadow: 0px 14px 70px rgba(0, 0, 0, 0.1);
   padding: 23px;
@@ -139,7 +139,7 @@ nav .nav-bar .nav-bar_item .header-links:hover:after {
   transform: rotate(135deg);
 }
 
-.nav-bar .dropdown2 .project {
+.nav-bar .dropdown2 .project2 {
   position: absolute;
   transform: translateX(-20px) translateY(5px);
   height: 160px;
@@ -153,11 +153,11 @@ nav .nav-bar .nav-bar_item .header-links:hover:after {
   transition: 0.2s ease-in-out;
 }
 
-.nav-bar .dropdown2:hover .project {
+.nav-bar .dropdown2:hover .project2 {
   visibility: visible;
 }
 
-/* Dropdown EN */
+/* Dropdown EN-POR */
 .nav-bar .dropdown3 {
   position: relative;
 }
@@ -180,7 +180,7 @@ nav .nav-bar .nav-bar_item .header-links:hover:after {
   transform: rotate(135deg);
 }
 
-.nav-bar .dropdown3 .project {
+.nav-bar .dropdown3 .project3 {
   position: absolute;
   transform: translateX(-20px) translateY(5px);
   height: 60px;
@@ -194,8 +194,16 @@ nav .nav-bar .nav-bar_item .header-links:hover:after {
   transition: 0.2s ease-in-out;
 }
 
-.nav-bar .dropdown3:hover .project {
+.nav-bar .dropdown3:hover .project3 {
   visibility: visible;
+}
+
+.drop-eng {
+  margin-bottom: 10px;
+}
+
+.drop-por {
+  margin-bottom: 10px;
 }
 
 /* Drop Item */
@@ -204,19 +212,27 @@ nav .nav-bar .nav-bar_item a {
   color: #0d0d0d;
 }
 
-nav .nav-bar .nav-bar_item a:hover {
-  color: #005e59;
+nav .nav-bar .nav-bar_item .drop-content:hover {
+  /* background: #81bbaf3a; */
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+nav .nav-bar .nav-bar_item .drop-content a:hover {
+  color: #00866D;
 }
 
 /* Drop Content */
 .drop-content {
   display: flex;
-  flex-wrap: wrap;
+}
+
+.gap-drop {
+  margin-bottom: 10px;
 }
 
 .drop-content li {
   list-style-type: none;
-  margin-bottom: 10px;
   font-style: normal;
   font-weight: 600;
   font-size: 15px;
@@ -230,6 +246,14 @@ nav .nav-bar .nav-bar_item a:hover {
   font-size: 12px;
   line-height: 16px;
   color: #9f9f9f;
+}
+
+.drop-text {
+  margin-left: 9px;
+}
+
+.drop-company {
+  margin-bottom: 10px;
 }
 
 /* Access Buttons */

@@ -126,11 +126,12 @@ hr {
 .end-footer {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     font-weight: 400;
     font-size: 12px;
     line-height: 16px;
     color: #F2F2F2;
-    }
+}
 
 .end-footer a {
     color: #F2F2F2;
@@ -141,17 +142,24 @@ hr {
     gap: 25px;
 }
 
-.terms-service {
-    padding-left: 40px;
+.terms-of-service:hover {
+    opacity: 0.8;
+}
+
+.privacy-policy:hover {
+    opacity: 0.8;
 }
 
 .social-media {
-    padding-left: 750px;
-    gap: 20px;
+    gap: 5px;
 }
 
-.distance {
+.social-logo {
     padding: 8px;
+}
+
+.social-logo:hover {
+    opacity: 0.7;
 }
 
 /* Contact Button */
