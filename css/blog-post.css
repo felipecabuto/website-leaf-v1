@@ -1,0 +1,149 @@
+/* Search Button */
+.search-blog {
+  display: flex;
+  place-content: end;
+  align-items: end;
+  height: 150px;
+  padding-right: 100px;
+}
+
+.search-btn {
+  padding: 10px;
+}
+
+/* MAIN BLOG */
+.case-study {
+  position: relative;
+  left: 200px;
+}
+
+.title-area {
+  margin-top: 10px;
+  display: flex;
+  place-content: space-around;
+}
+
+.blog-title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 100%;
+  color: #000000;
+}
+
+.share-area {
+  display: flex;
+  gap: 10px;
+}
+
+.share-btn {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #9F9F9F;
+}
+
+.blog-sub {
+  position: relative;
+  left: 200px;
+  margin-top: 10px;
+  font-family: "Source Serif Pro";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 39px;
+  color: #9F9F9F;
+}
+
+.blog-img {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+/* Text */
+.grid-blog {
+  display: grid;
+  grid-template-columns: 815px 275px;
+  gap: 16px;
+  grid-template-areas: 
+  "content content sidebar"
+  "content content sidebar"
+  "content content sidebar";
+}
+
+.box {
+    /* background-color: #EFEFEF;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 150%;  */
+}
+
+.content {
+  grid-area: content;
+  padding: 40px 170px;
+}
+
+.sidebar {
+  grid-area: sidebar;
+  width: 275px;
+  height: 275px;
+  left: 1118px;
+  top: 944px;
+  background: #F9F9F9;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.blog-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 39px;
+  color: #9F9F9F;
+}
+
+.b-quote {
+  font-family: 'General Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 38px;
+  color: #0D0D0D;
+}
+
+.b-quote::before {
+  content: "";
+  position: absolute;
+  left: 190px;
+  width: 3px;
+  height: 154px;
+  background: #005E59;
+}
+
+.autor {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+  color: #9F9F9F;
+}
+
+.highlight-text {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 45px;
+  color: #0D0D0D;
+}
+
+/* Side Bar */
+.sidebar-text {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 140%;
+  color: #0D0D0D;
+}
+
+.rules-policy {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14px;
+  color: #9F9F9F;
+}

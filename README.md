@@ -11,7 +11,7 @@
 - [x] <a href="https://felipecabuto.github.io/site-leaf/pricing.html">Pricing page</a>
 - [x] <a href="https://felipecabuto.github.io/site-leaf/company.html">Company page</a>
 - [x] <a href="https://felipecabuto.github.io/site-leaf/blog.html">Blog page</a>
-- [ ] Blog post page
+- [x] <a href="https://felipecabuto.github.io/site-leaf/blog-post.html">Blog post page</a>
 - [ ] Careers page
 - [ ] Contact Leaf page
 - [ ] Contact Sales page

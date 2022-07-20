@@ -17,4 +17,7 @@
 @import './company.css';
 
 /* blog.html */
-@import './blog.css'
+@import './blog.css';
+
+/* blog-post.html */
+@import './blog-post.css'

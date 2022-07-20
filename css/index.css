@@ -614,6 +614,7 @@
 .card-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   justify-content: space-around;
   padding: 20px 50px 80px 150px;
 }
@@ -641,15 +642,5 @@
   display: grid;
   justify-content: center;
   padding-top: 15px;
-  border: 1px solid #9f9f9f4c;
-}
-
-.card-articles {
-  width: 320px;
-  height: 360px;
-  background: #9f9f9f;
-  mix-blend-mode: multiply;
-  opacity: 0.15;
-  filter: blur(60px);
-  border-radius: 20px;
+  box-shadow: 1px 1px 1px #9f9f9f3e;
 }
