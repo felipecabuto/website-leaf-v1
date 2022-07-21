@@ -142,8 +142,16 @@ hr {
     gap: 25px;
 }
 
+.terms-of-service {
+    transition: .1s ease-out;
+}
+
 .terms-of-service:hover {
     opacity: 0.8;
+}
+
+.privacy-policy {
+    transition: .1s ease-out;
 }
 
 .privacy-policy:hover {
@@ -156,6 +164,7 @@ hr {
 
 .social-logo {
     padding: 8px;
+    transition: .1s ease-out;
 }
 
 .social-logo:hover {

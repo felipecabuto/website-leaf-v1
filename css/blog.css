@@ -214,5 +214,6 @@
   display: grid;
   justify-content: center;
   padding-top: 15px;
-  box-shadow: 1px 1px 1px #9f9f9f3e;
+  /* box-shadow: 1px 1px 1px #9f9f9f3e; */
+  box-shadow: 5px 5px 15px 0px rgba(44,44,44,0.15);
 }
