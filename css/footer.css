@@ -159,6 +159,7 @@ hr {
 }
 
 .social-media {
+    display: flex;
     gap: 5px;
 }
 
