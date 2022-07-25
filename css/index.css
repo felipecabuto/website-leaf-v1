@@ -50,7 +50,7 @@
 
 /* CLIENTS */
 .clients-section {
-  padding: 0px 100px 50px 100px;
+  padding: 50px 100px;
 }
 
 .trusted {
@@ -79,6 +79,13 @@
 }
 
 /* LEAF VALUES */
+.values-background {
+  background: #EFEFEF;
+  /* background: #FFFFFF; */
+  max-width: 100%;
+  padding: 50px;
+}
+
 .values-tittle {
   font-style: normal;
   font-weight: 600;
@@ -90,8 +97,8 @@
 }
 
 .values-sub {
-  font-weight: 400;
-  font-size: 18px;
+  font-weight: 500;
+  font-size: 1.125rem;
   line-height: 30px;
   text-align: center;
   color: #404040;
@@ -109,7 +116,7 @@
 .values-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  justify-items: center
+  justify-items: center;
 }
 
 .values-col-l {
@@ -130,7 +137,7 @@
 
 .values-logo {
   max-width: 42px;
-  opacity: 0.7;
+  opacity: 0.8;
 }
 
 .values-text {
@@ -218,8 +225,9 @@
 }
 
 .field-background {
-  background: no-repeat center/100% url("../images/field-background.png");
-  max-width: 1400px;
+  /* background: #EFEFEF; */
+  background: #FFFFFF;
+  max-width: 100%;
   padding: 100px;
 }
 
