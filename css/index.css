@@ -78,65 +78,67 @@
   justify-content: center;
 }
 
-/* LEAF INFRA */
-.infra-section {
-  width: 100%;
-  height: 835px;
-  left: 0px;
-  top: 1084px;
-  background: #ffffff;
-  border-radius: 30px 30px 0px 0px;
-}
-
-.leaf-infra {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-.infra-title {
-  font-weight: 600;
-  font-size: 48px;
-  line-height: 55px;
-  color: #0d0d0d;
-  padding: 50px 50px 0px 100px;
-}
-
-.infra-sub {
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 21px;
-  color: #404040;
-  padding: 50px 50px 0px 100px;
-}
-
 /* LEAF VALUES */
-.values-text {
-  padding: 100px 0px 50px 0px;
-}
-
-.values-title {
+.values-tittle {
+  font-style: normal;
   font-weight: 600;
   font-size: 48px;
   line-height: 55px;
   text-align: center;
-  color: #0d0d0d;
+  color: #0D0D0D;
+  padding-top: 30px;
 }
 
 .values-sub {
   font-weight: 400;
-  font-size: 15px;
-  line-height: 21px;
+  font-size: 18px;
+  line-height: 30px;
   text-align: center;
   color: #404040;
-  padding-top: 20px;
 }
 
-.leaf-values-section {
-  text-align: center;
+.green-line {
+  width: 28px;
+  height: 4px;
+  background: #00866D;
+  border-radius: 8px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
-.values-m {
-  margin: 5px;
+.values-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center
+}
+
+.values-col-l {
+  padding-left: 350px;
+  padding-top: 50px;
+}
+
+.values-col-r {
+  padding-top: 50px;
+  padding-right: 350px;
+}
+
+.values-content {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+
+.values-logo {
+  max-width: 42px;
+  opacity: 0.7;
+}
+
+.values-text {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 24px;
+  color: #404040;
+  padding-left: 20px;
 }
 
 /* PRODUCTS */
@@ -582,7 +584,7 @@
   border-color: #ffffff;
 }
 
-/* CARD SECTION */
+/* CARD BLOG */
 .next-card {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -653,5 +655,6 @@
 .card-text-home {
   display: flex;
   flex-wrap: wrap;
+  justify-content: start;
   padding: 0px 0px 70px 30px;
 }
