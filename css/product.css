@@ -111,6 +111,10 @@ hr {
     font-size: 2rem;
 }
 
+.text-center-tittle img {
+    display: inline;
+}
+
 .text-center-tittle {
     text-align: center;
 }
