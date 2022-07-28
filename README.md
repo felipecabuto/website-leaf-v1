@@ -12,7 +12,7 @@
 - [x] <a href="https://felipecabuto.github.io/site-leaf/company.html">Company page</a>
 - [x] <a href="https://felipecabuto.github.io/site-leaf/blog.html">Blog page</a>
 - [x] <a href="https://felipecabuto.github.io/site-leaf/blog-post.html">Blog post page</a>
-- [ ] Careers page</a>
+- [x] <a href="https://felipecabuto.github.io/site-leaf/careers.html">Careers page</a>
 - [ ] Careers Job Description page
 - [ ] Contact
 - [ ] Documentation page
@@ -20,7 +20,7 @@
 
 ### 🛠 Technologies
 
-Tools that will be used in the construction of the project::
+Tools that will be used in the construction of the project:
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
