@@ -20,4 +20,7 @@
 @import './blog.css';
 
 /* blog-post.html */
-@import './blog-post.css'
+@import './blog-post.css';
+
+/* careers.html */
+@import './careers.css'

@@ -13,9 +13,9 @@
 - [x] <a href="https://felipecabuto.github.io/site-leaf/blog.html">Blog page</a>
 - [x] <a href="https://felipecabuto.github.io/site-leaf/blog-post.html">Blog post page</a>
 - [ ] Careers page
-- [ ] Contact Leaf page
-- [ ] Contact Sales page
-- [ ] Documentation Welcome page
+- [ ] Careers Job Description page
+- [ ] Contact
+- [ ] Documentation page
 - [ ] Documentation Endpoints page
 
 ### 🛠 Technologies
