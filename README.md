@@ -12,7 +12,7 @@
 - [x] <a href="https://felipecabuto.github.io/site-leaf/company.html">Company page</a>
 - [x] <a href="https://felipecabuto.github.io/site-leaf/blog.html">Blog page</a>
 - [x] <a href="https://felipecabuto.github.io/site-leaf/blog-post.html">Blog post page</a>
-- [x] <a href="https://felipecabuto.github.io/site-leaf/careers.html">Careers page</a>
+- [ ] Careers page</a>
 - [ ] Careers Job Description page
 - [ ] Contact
 - [ ] Documentation page
