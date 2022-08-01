@@ -438,12 +438,11 @@
 
 /* TECHNOLOGY FIRST */
 .tech-first {
-  width: 1312px;
-  height: 427px;
-  background: #00866d;
-  border-radius: 30px;
   margin: 80px 100px;
-  place-content: center;
+}
+
+.tech-first img {
+  margin: auto;
 }
 
 .tech-first h3 {
@@ -458,11 +457,6 @@
   padding-left: 150px;
   padding-top: 65px;
   position: absolute;
-}
-
-.lines {
-  padding-left: 130px;
-  padding-bottom: 50px;
 }
 
 .tech-content {

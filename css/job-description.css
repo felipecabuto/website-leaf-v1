@@ -1,0 +1,62 @@
+/* Before Button */
+.before-jb {
+  display: inline-block;
+  padding: 120px 0 0 120px;
+  margin:  0 0 20px 10px;
+}
+
+/* JOB DESCRIPTION */
+.job-descp-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+/* Side Bar */
+.job-descp-side {
+  padding-left: 130px;
+}
+
+.descp-position {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 32px;
+  color: #404040;
+}
+
+.descp-info {
+  font-family: Source Code Pro;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 20px;
+  color: #404040;
+  padding-top: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.descp-info2 {
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 30px;
+  color: #404040;
+}
+
+.apply-area {
+  padding-top: 40px;
+}
+
+/* Text */
+.job-descp-text {
+  color: #404040;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 80%;
+  padding-bottom: 80px;
+}
+
+.jb-bullet, li::before {
+  list-style-type: disc;
+}

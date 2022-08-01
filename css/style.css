@@ -23,4 +23,7 @@
 @import './blog-post.css';
 
 /* careers.html */
-@import './careers.css'
+@import './careers.css';
+
+/* job-description.html */
+@import './job-description.css'
