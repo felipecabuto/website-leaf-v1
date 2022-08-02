@@ -259,3 +259,108 @@
   background: #EFEFEF;
   border-radius: 25px;
 }
+
+/* NEWSLETTER */
+.news-blog {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 60px 0;
+}
+
+.news-blog-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+  justify-items: center;
+  height: 269px;
+  width: 1258px;
+  border-radius: 10px;
+  background: #FFFFFF;
+  box-shadow: 1px 1px 1px #9f9f9f3e;
+  /* box-shadow: 1px 5px 20px #9f9f9f3e; */
+}
+
+.news-blog-A {
+  padding-left: 100px;
+}
+
+.news-blog-text {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 43px;
+}
+
+.news-blog-B {
+  padding-left: 50px;
+}
+
+.email-area {
+  margin: 5px;
+}
+
+.news-form {
+  display: flex;
+}
+
+.news-input {
+  padding: 13px 160px 13px 20px;
+  border: 1px solid #9F9F9F;
+  border-radius: 30px;
+  background: #F5F5F5;    
+  font-weight: 500;
+  color: #9F9F9F;
+  width: 180px;
+}
+
+.news-input::placeholder {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 21px;
+  color: #404040;
+}
+
+.news-input:focus{
+  outline: 1px solid #5AB88F;
+}
+
+.email-area a {
+  position: relative;
+  right: 128px;
+  font-weight: 600;
+  line-height: 1.3;
+  background: #5AB88F;
+  color: #f5f5f5;
+  border: 1px solid transparent;
+  border-radius: 1000px;
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+}
+
+input, a {
+  gap: 5px;
+}
+
+.checkbox-area {
+  display: flex;
+  align-items: center;
+  padding-left: 85px;
+  /* justify-content: center; */
+  gap: 2px;
+  color:#5AB88F;
+}
+
+input[type='checkbox']:checked{
+  background-color: #5AB88F;
+}
+
+.checkbox-text {
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 14px;
+  color: #9F9F9F;
+}
+
+.policy-privacy {
+  color: #33CC99;
+}
