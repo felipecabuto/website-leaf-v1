@@ -1,0 +1,225 @@
+/* CONTACT FORM */
+.contact-container {
+  padding: 150px 100px 0 100px;
+}
+
+.contact-form-text {
+  text-align: center;
+}
+
+.contact-form-text h1 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 65px;
+}
+
+.contact-form-text p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #9F9F9F;
+  padding: 30px 0 50px 0;
+}
+
+.form-content {
+	max-width: 768px;
+	display: block;
+	width: 90%;
+	background-color: #FFFFFF;
+	padding: 20px 0 35px 0;
+	margin: 0 auto 50px;
+	color: #9F9F9F;
+  border-radius: 20px;
+  box-shadow: 1px 5px 20px #9f9f9f3e;
+}
+
+fieldset {
+	border: none;
+	width: 90%;
+	margin: 10px auto;
+}
+
+.double-input {
+	margin: 20px auto;
+}
+
+.double-input {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+	margin: 10px;
+  gap: 20px;
+}
+
+.one-input {
+  display: grid;
+  grid-template-columns: 1fr;
+	margin: 10px;
+  gap: 20px;
+}
+
+label {
+	display: block;
+	margin-bottom: 3px;
+  font-size: 12px;
+font-weight: 400;
+line-height: 16px;
+}
+
+.form-input {
+	width: 90%;
+	color: #9F9F9F;
+	background-color: transparent;
+	border: 1px solid #a9a9a9;
+	padding: 15px;
+	height: 10px;
+  border-radius: 20px;
+}
+
+
+.form-input:focus {
+  color: #5AB88F;
+}
+
+.form-input:active {
+  color: #5AB88F;
+}
+
+.your-email {
+  width: 95%;
+}
+
+.your-message {
+  width: 95%;
+	height: 40px;
+}
+
+.date-select > select {
+	width: 47%;
+}
+
+.date-select > select:first-of-type {
+	margin-right: 3%;
+}
+
+input:focus {
+	border: 1px solid #5AB88F;
+  outline: 1px solid #5AB88F;
+}
+
+input:valid {
+	border: 1px solid #55ee70;
+}
+
+.confirm-submit {
+  padding: 0 50px;
+}
+
+.confirm-submit p {
+  line-height: 26px;
+}
+
+.checkbox-area2 {
+  display: flex;
+  padding: 15px 0;
+  align-items: start;
+  gap: 5px;
+}
+
+.submit-area {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  place-content: center;
+}
+
+.submit-area input {
+  border: none;
+}
+
+/* .contact-container {
+  padding: 150px 100px 0 100px;
+}
+
+.contact-form-text {
+  text-align: center;
+}
+
+.contact-form-text h1 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 65px;
+}
+
+.contact-form-text p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #9F9F9F;
+  padding: 30px 0 50px 0;
+}
+
+.form-content, label {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  color: #9F9F9F;
+}
+
+input, #fname, #lname, #company, #job-title {
+  border: 2px solid #9F9F9F;
+  color: #9F9F9F;
+  border-radius: 20px;
+  padding: 10px 150px;
+}
+
+input[type=text] {
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  border: transparent;
+}
+
+.form-box {
+  display: flex;
+  align-content: center;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  padding: 40px;
+  height: 635px;
+  width: 692px;
+  border-radius: 20px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.form-content {
+  text-align: start;
+}
+
+.teste {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+p {
+  text-align: center;
+}
+
+.text-box {
+  height: 40px;
+  width: 291px;
+  padding: 50px;
+  border-radius: 20px;
+}
+
+.checkbox-area2 {
+  display: flex;
+} */

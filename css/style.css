@@ -26,4 +26,7 @@
 @import './careers.css';
 
 /* job-description.html */
-@import './job-description.css'
+@import './job-description.css';
+
+/* contact.html */
+@import './contact.css'

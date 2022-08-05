@@ -99,6 +99,7 @@
   line-height: 30px;
   text-align: center;
   color: #404040;
+  margin-top: 20px;
 }
 
 .green-line {
@@ -112,7 +113,7 @@
 
 .values-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   justify-items: center;
 }
 

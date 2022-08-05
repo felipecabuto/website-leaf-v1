@@ -14,7 +14,7 @@
 - [x] <a href="https://felipecabuto.github.io/site-leaf/blog-post.html">Blog post page</a>
 - [x] <a href="https://felipecabuto.github.io/site-leaf/careers.html">Careers page</a>
 - [x] <a href="https://felipecabuto.github.io/site-leaf/job-description.html">Job Description page</a>
-- [ ] Contact
+- [x] <a href="https://felipecabuto.github.io/site-leaf/contact.html">Contact</a>
 - [ ] Documentation page
 - [ ] Documentation Endpoints page
 
