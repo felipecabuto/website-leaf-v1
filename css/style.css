@@ -29,4 +29,7 @@
 @import './job-description.css';
 
 /* contact.html */
-@import './contact.css'
+@import './contact.css';
+
+/* endpoints.html */
+@import './endpoints.css';
