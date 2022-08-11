@@ -96,18 +96,17 @@
       <!-- Search Form -->
       <form action="#" method="get" class="sidebar-form">
         <div class="input-group">
-          <input type="text" name="q" class="form-control" placeholder="Search...">
-          <span class="input-group-area">
-            <button type="submit" name="search" id="search-btn" class="input-group-btn">
-              <img src="images/search-icon.png" alt="">
-            </button>
-          </span>
+          <div class="input-group-area">
+            <img src="images/search-icon.png" alt="">
+            <input type="text" name="q" class="form-control" placeholder="Search...">
+          </div>
         </div>
       </form>
+
       <!-- Sidebar Menu -->
       <nav>
         <ul class="sidebar-menu">
-          <li><a href="#">Welcome</a></li>
+          <li class="sibebar-active"><a href="#">Welcome</a></li>
           <li><a href="#">Quickstart</a></li>
           <li><a href="#">API Reference</a></li>
             <ul class="treeview-menu">
@@ -127,33 +126,42 @@
       </nav>     
     </aside>
     <!-- Content -->
-    <div class="endpoint-content">
+    <div class="endpoint-content vertical-line">
       <h1>Welcome</h1>
-      <h2>Welcome to Leaf's Documentation!</h2>
+      <h2>Welcome to Leaf's Documentation!<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M6.95727 13.0427L13.0425 6.95745M13.0425 6.95745L8.22232 7.21371M13.0425 6.95745L12.7863 11.7777" stroke="#005E59" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </h2>
       <p>Developers use Leaf's API to access clean, standardized, and aggregated Farm data from all major food & agriculture brands. Please see the Quickstart section to get started with sample farm data & popular use cases. We have implementation examples in cURL, NodeJS and Python!</p>
-      <a class="get-start" href="">Getting started</a>
+      <div class="get-start">
+        <a href="">Getting started</a>
+      </div>
       <p>Leaf's API abstracts and standardizes across agricultural data sources so you can focus on building value with farm data. There are just a few concepts that you need to get started and we provide sample data within new Leaf accounts to help you learn quickly.</p>
       <div class="endpoint-tip">
         <div class="tip-btn">
           <img src="images/lightbulb.svg" alt="">
           <a href="">TIP</a>
         </div>
-        <p>Below you'll find instructions using curl and python, and you may also follow along using our <span class="green-word">Leaf Postman collection</span>.</p>
+        <p>Below you'll find instructions using curl and python, and you may also follow along using our <span class="green-word green-pointer">Leaf Postman collection</span>.</p>
       </div>
-      <a class="green-btn" href="">Next topic</a>
-      <a class="endpoint-tag" href="">Quickstart</a>
+      <div class="tip-btn-area">
+        <a class="green-btn" href="">Next topic<img src="images/arrow.svg" alt=""></a>
+      </div>
+      <div class="tip-btn-area2">
+        <a class="endpoint-tag" href="">Quickstart</a>
+      </div>
     </div>
     <!-- Sidebar Right -->
     <div class="endpoint-sidebar">
-      <span class="endpoint-vertical-line"></span>
-      <h3>Table of contents</h3>
-      <p>Welcome to Leaf's Documentation!</p>
-        <div class="leaf-github">
-          <a href="">Leaf on GitHub</a>
-          <img src="images/light-mode.svg" alt="">
-        </div>
+      <div class="end-sidetext1">
+        <h3>Table of contents</h3>
+        <p>Welcome to Leaf's Documentation!</p>
+      </div>
+      <div class="leaf-github">
+        <a href="https://github.com/Leaf-Agriculture" target="_blank">Leaf on GitHub</a>
+        <img src="images/light-mode.svg" alt="">
+      </div>
     </div>
-
   </section>
 </body>
 

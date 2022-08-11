@@ -9,6 +9,13 @@
 
 }
 
+.endpoint-navbar form {
+  /* display: flex;
+  justify-content: center; */
+  padding-left: 70px;
+  padding-bottom: 16px;
+}
+
 .sidebar-form {
 
 }
@@ -21,11 +28,41 @@
 
 }
 
+.input-group-area {
+  display: flex;
+  height: 40px;
+  width: 282px;
+  border-radius: 7px;
+  padding: 10px, 15px;
+  gap: 10px;
+  border: 2px solid #9F9F9F;
+}
+
+.input-group-area input {
+  background: #F5F5F5;
+  border: 2px solid transparent;
+  outline: 2px solid transparent;
+  color: #9F9F9F;
+  width: 220px;
+}
+
+.input-group-area img {
+  align-self: center;
+  max-width: 20px;
+  max-height: 20px;
+  padding-left: 20px;
+}
+
 .input-group-btn {
 
 }
 
 /* Sidebar Menu */
+.sidebar-menu {
+  padding: 0 30px 0 60px;
+  line-height: 35px;
+}
+
 .sidebar-menu a {
   font-size: 14px;
   font-weight: 400;
@@ -33,11 +70,35 @@
   letter-spacing: 0em;
   text-align: left;
   color: #9F9F9F;
+  padding-left: 20px;
+}
+
+.sibebar-active {
+  height: 39px;
+  width: 281px;
+  border-radius: 25px;
+  padding: 10px, 15px, 10px, 15px;
+  background: #EFEFEF;
+}
+
+.sibebar-active a {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0em;
+  color: #00866D;
+  padding-left: 20px;
 }
 
 /* Content */
-.endpoint-content {
+.vertical-line {
+  height: 600px;
+  border-right: 2px solid #E9E9E9;
+  border-left: 2px solid #E9E9E9;
+}
 
+.endpoint-content {
+  padding: 0 80px;
 }
 
 .endpoint-content h1 {
@@ -53,6 +114,7 @@
   line-height: 24px;
   text-align: left;
   color: #005E59;
+  margin-top: 20px
 }
 
 .endpoint-content p {
@@ -61,9 +123,15 @@
   line-height: 30px;
   text-align: left;
   color: #9F9F9F;
+  margin-top: 20px;
 }
 
 .get-start {
+  margin-top: 10px;
+  margin-bottom: -10px;
+}
+
+.get-start a {
   font-size: 18px;
   font-weight: 600;
   line-height: 24px;
@@ -75,17 +143,41 @@
 .endpoint-tip {
   background: #00866D;
   height: 142px;
-  width: 614px;
+  /* width: 614px; */
   border-radius: 5px;
+  margin-top: 20px;
+  padding: 20px 30px;
+  box-sizing: border-box;
+}
+
+.endpoint-tip p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  color: #F5F5F5;
+  margin-top: 10px;
 }
 
 .tip-btn {
-  display: inline-block;
+  display: flex;
   background: #EFEFEF;
   height: 28px;
   width: 78px;
   border-radius: 25px;
   padding: 8px 16px;
+  box-sizing: border-box;
+  transition: .1s ease-out;
+}
+
+.tip-btn:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.tip-btn img {
+  width: 30%;
+  margin-right: 5px;
 }
 
 .tip-btn a {
@@ -98,22 +190,33 @@
   color: #00866D;
 }
 
-.endpoint-tip p {
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 30px;
-  text-align: left;
-  color: #F5F5F5;
+.tip-btn-area {
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.tip-btn-area img {
+  display: inline;
+  margin-left: 12px;
+}
+
+.tip-btn-area2 {
+  display: flex;
+  justify-content: end;
+  margin-top: 10px;
+}
+
+.green-pointer {
+  cursor: pointer;
 }
 
 .endpoint-tag {
-  display: flex;
-  align-items: flex-end;
   height: 28px;
   width: 115px;
   border-radius: 25px;
   padding: 8px, 16px, 8px, 16px;
-
   font-family: 'Source Code Pro';
   font-size: 12px;
   font-weight: 700;
@@ -121,9 +224,25 @@
   letter-spacing: 0.1em;
   text-align: left;
   color: #00866D;
+  transition: .1s ease-out;
 }
 
-.endpoint-sidebar h3 {
+.endpoint-tag:hover {
+  opacity: 0.8;
+}
+
+/* Sidebar Right */
+.endpoint-sidebar {
+  padding: 0 48px;
+  display: flex;
+  flex-direction: column;
+}
+
+.end-sidetext1 {
+  height: 90%;
+}
+
+.end-sidetext1 h3 {
   font-size: 18px;
   font-weight: 600;
   line-height: 24px;
@@ -132,13 +251,20 @@
   color: #9F9F9F;
 }
 
-.endpoint-sidebar p {
+.end-sidetext1 p {
   font-size: 12px;
   font-weight: 400;
   line-height: 16px;
   letter-spacing: 0em;
   text-align: left;
   color: #9F9F9F;
+}
+
+.leaf-github {
+  display: flex;
+  height: 10%;
+  gap: 10px;
+  align-content: center;
 }
 
 .leaf-github a {
@@ -148,4 +274,13 @@
   letter-spacing: 0em;
   text-align: right;
   color: #9F9F9F;
+}
+
+.leaf-github img {
+  position: relative;
+  top: 6px;
+  right: 2px;
+  align-self: start;
+  width: 15px;
+  cursor: pointer;
 }
