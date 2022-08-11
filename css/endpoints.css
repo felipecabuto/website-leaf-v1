@@ -5,27 +5,9 @@
   padding-top: 120px;
 }
 
-.endpoint-navbar {
-
-}
-
 .endpoint-navbar form {
-  /* display: flex;
-  justify-content: center; */
   padding-left: 70px;
   padding-bottom: 16px;
-}
-
-.sidebar-form {
-
-}
-
-.input-group {
-
-}
-
-.form-control {
-
 }
 
 .input-group-area {
@@ -38,14 +20,6 @@
   border: 2px solid #9F9F9F;
 }
 
-.input-group-area input {
-  background: #F5F5F5;
-  border: 2px solid transparent;
-  outline: 2px solid transparent;
-  color: #9F9F9F;
-  width: 220px;
-}
-
 .input-group-area img {
   align-self: center;
   max-width: 20px;
@@ -53,8 +27,12 @@
   padding-left: 20px;
 }
 
-.input-group-btn {
-
+.input-group-area input {
+  background: #F5F5F5;
+  border: 2px solid transparent;
+  outline: 2px solid transparent;
+  color: #9F9F9F;
+  width: 220px;
 }
 
 /* Sidebar Menu */
