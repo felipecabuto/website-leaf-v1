@@ -7,14 +7,16 @@
 ### ▶️ Demo
 
 - [x] <a href="https://felipecabuto.github.io/site-leaf/">Home page</a>
-- [x] <a href="https://felipecabuto.github.io/site-leaf/product.html">Product page</a>
+- [x] <a href="https://felipecabuto.github.io/site-leaf/product-machine-data.html">Product page: Machine Data</a>
+- [x] <a href="https://felipecabuto.github.io/site-leaf/product-imagery.html">Product page: Imagery</a>
+- [x] <a href="https://felipecabuto.github.io/site-leaf/product-field-boundaries.html">Product page: Field Boundaries</a>
 - [x] <a href="https://felipecabuto.github.io/site-leaf/pricing.html">Pricing page</a>
 - [x] <a href="https://felipecabuto.github.io/site-leaf/company.html">Company page</a>
 - [x] <a href="https://felipecabuto.github.io/site-leaf/blog.html">Blog page</a>
 - [x] <a href="https://felipecabuto.github.io/site-leaf/blog-post.html">Blog post page</a>
 - [x] <a href="https://felipecabuto.github.io/site-leaf/careers.html">Careers page</a>
 - [x] <a href="https://felipecabuto.github.io/site-leaf/job-description.html">Job Description page</a>
-- [x] <a href="https://felipecabuto.github.io/site-leaf/contact.html">Contact</a>
+- [x] <a href="https://felipecabuto.github.io/site-leaf/contact.html">Contact page</a>
 - [x] <a href="https://felipecabuto.github.io/site-leaf/endpoints.html">Documentation page</a>
 - [ ] Documentation Endpoints page
 
