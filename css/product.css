@@ -48,6 +48,7 @@
     font-size: 1.125rem;
     padding: 20px 0px 50px 0px;
     line-height: 140%;
+    font-weight: bold
 }
 
 .intro-products img {
@@ -57,25 +58,44 @@
 }
 
 /* PRODUCTS */
+.gray-background {
+    background-color: #EFEFEF;
+}
+
+.partners {
+    display: flex;
+    justify-content: center;
+    font-family: 'Source Code Pro';
+    font-size: 0.75rem;
+    font-weight: 700;
+    line-height: 12px;
+    color: #404040;
+    padding-top: 60px;
+}
+
 .products-menu {
     display: flex;
     justify-items: center;
     gap: 150px;
 }
 
-.products-item {
-    font-family: 'Source Code Pro';
-    padding: 60px 0px 73px 0px;
-    font-weight: 700;
-    font-size: 1rem;
-    color: #404040;
-    text-transform: uppercase;
+.products-menu3 {
+    display: flex;
+    justify-items: center;
+    gap: 100px;
 }
 
-.hr-products {
+.products-item {
+    padding: 60px 0px 73px 0px;
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: #404040;
+}
+
+/* .hr-products {
     padding-left: 80px;
     padding-right: 80px;
-}
+} */
 
 hr {
     border: 0;
@@ -102,7 +122,7 @@ hr {
     display: inline;
 }
 
-.text-center-tittle {
+.brands-tittle h2 {
     text-align: center;
 }
 
@@ -157,12 +177,32 @@ hr {
 }
 
 /* MACHINE DATA */
-.machinedata-section h2 {
+.machinedata-section {
+    margin: 30px auto;
+}
+
+.machinedata-title {
     display: flex;
     justify-content: center;
+}
+
+.machinedata-section h2 {
     font-size: 48px;
     font-weight: 600;
     line-height: 55px;
+    margin-top: 70px;
+}
+
+.machinedata-section span {
+    width: 453px;
+    height: 60px;
+    background: #33CC99;
+    border-radius: 40px;
+    color: #F5F5F5;
+    padding: 2px 12px;
+    margin: 2px;
+    align-items: center;
+    justify-content: center;
 }
 
 .machinedata-grid {
@@ -173,11 +213,13 @@ hr {
 }
 
 .machinedata-col1 {
-    padding: 5px 0 20px 400px;
+    padding-left: 400px;
+    margin-bottom: 20px;
 }
 
 .machinedata-col2 {
-    padding: 5px 400px 20px 0;
+    padding-right: 400px;
+    margin-bottom: 20px;
 }
 
 .machinedata-content {
