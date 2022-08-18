@@ -34,6 +34,19 @@
   line-height: 140%;
 }
 
+.arrow-start {
+  position: relative;
+  top: 2px;
+  left: 5px;
+  transition: all 0.7s ease 0s;
+}
+
+.arrow-start:hover {
+  position: relative;
+  top: 2px;
+  left: 12px;
+}
+
 .sales-btn {
   font-weight: 600;
   font-size: 15px;
@@ -67,15 +80,6 @@
   margin-left: auto;
   margin-right: auto;
   padding: 10px;
-}
-
-.customer {
-  padding-top: 30px;
-  color: #00866d;
-  font-weight: 600;
-  font-size: 0.93rem;
-  display: flex;
-  justify-content: center;
 }
 
 /* LEAF VALUES */
@@ -277,6 +281,41 @@
   line-height: 21px;
 }
 
+.seemore-area {
+  display: flex;
+  align-items: center;
+}
+
+.seemore-btn {
+  color: #00866d;
+  font-weight: 600;
+  font-size: 0.93rem;
+  margin-right: 5px;
+  transition: all 0.7s ease 0s;
+}
+
+.seemore-btn:hover {
+  color: #5AB88F;
+}
+
+.seemore-area3 {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.seemore-btn3 {
+  color: #00866d;
+  font-weight: 600;
+  font-size: 0.93rem;
+  margin-right: 5px;
+  transition: all 0.7s ease 0s;
+}
+
+.seemore-btn3:hover {
+  color: #5AB88F;
+}
+
 .product-sub-white {
   color: #f3f3f3;
   font-weight: 400;
@@ -326,6 +365,23 @@
 }
 
 .imagery-btn:hover {
+  color: #5ab88f;
+}
+
+.seemore-area2 {
+  display: flex;
+  align-items: center;
+}
+
+.seemore-btn2 {
+  color: #4de4a2;
+  font-weight: 600;
+  font-size: 0.93rem;
+  margin-right: 5px;
+  transition: all 0.7s ease 0s;
+}
+
+.seemore-btn2:hover {
   color: #5ab88f;
 }
 

@@ -11,13 +11,14 @@
 }
 
 .cta-area {
-    padding-top: 50px;
+    padding-top: 75px;
 }
 
 .intro-products h1 {
     font-size: 3.87rem;
     line-height: 0.95;
     font-weight: 600;
+    margin-top: 30px;
 }
 
 .the-product {
@@ -26,10 +27,9 @@
     color: #9F9F9F;
     background: #EFEFEF;
     padding: 8px 16px;
-    margin-bottom: 10px;
     border-radius: 25px;
     text-transform: uppercase;
-    display: inline-block;
+    display: inline;
     position: relative;
     width: 700px;
 }
@@ -51,10 +51,13 @@
     font-weight: bold
 }
 
+.gap1 {
+    margin-left: 20px;
+}
+
 .intro-products img {
-    position: relative;
-    top: 50px;
-    right: 25px;
+    max-width: 550px;
+    margin-top: 50px;
 }
 
 /* PRODUCTS */
@@ -75,13 +78,14 @@
 
 .products-menu {
     display: flex;
-    justify-items: center;
+    justify-content: center;
     gap: 150px;
+    text-align: center;
 }
 
 .products-menu3 {
     display: flex;
-    justify-items: center;
+    justify-content: center;
     gap: 100px;
 }
 
@@ -120,6 +124,18 @@ hr {
 
 .text-center-tittle img {
     display: inline;
+}
+
+.one2 {
+    width: 453px;
+    height: 60px;
+    background: #33CC99;
+    border-radius: 40px;
+    color: #F5F5F5;
+    padding: 2px 12px;
+    margin: 2px;
+    align-items: center;
+    justify-content: center;
 }
 
 .brands-tittle h2 {
@@ -176,6 +192,9 @@ hr {
     padding-top: 10px;
 }
 
+/* PARTNERS FEATURES */
+
+
 /* MACHINE DATA */
 .machinedata-section {
     margin: 30px auto;
@@ -222,6 +241,14 @@ hr {
     margin-bottom: 20px;
 }
 
+.machinedata-col3 {
+    padding-left: 400px;
+}
+
+.machinedata-col4 {
+    padding-right: 400px;
+}
+
 .machinedata-content {
     display: flex;
     padding: 20px 0;
@@ -235,6 +262,24 @@ hr {
     line-height: 30px;
     color: #404040;
 }
+
+.seemore-area4 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+  }
+  
+  .seemore-btn3 {
+    color: #00866d;
+    font-weight: 600;
+    font-size: 0.93rem;
+    margin-right: 5px;
+    transition: all 0.7s ease 0s;
+  }
+  
+  .seemore-btn3:hover {
+    color: #5AB88F;
+  }
 
 /* CUSTOMER TESTIMONIAL */
 .customer-tesmonial {
@@ -266,22 +311,6 @@ hr {
     font-weight: 600;
     line-height: 25px;
     color: #404040;
-}
-
-.customer-area {
-    display: flex;
-}
-
-.customer-btn {
-    color: #00866d;
-    font-weight: 600;
-    font-size: 0.93rem;
-    margin-right: 5px;
-    transition: all 0.7s ease 0s;
-}
-
-.customer-btn:hover {
-    color: #5AB88F;
 }
 
 /* ENDPOINTS */
