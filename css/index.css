@@ -1,20 +1,40 @@
 /* CALL TO ACTION */
 .intro {
-  max-width: 1300px;
-  padding: 117px 142px;
+  /* max-width: 1300px; */
+  /* padding: 120px 0;
   margin: 0 auto;
+  margin-right: 0; */
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 100px;
-  align-items: center;
-  align-content: center;
   background: #f2f2f2;
+  padding-top: 150px;
+  justify-items: end;
+
+}
+
+.intro div {
+  padding: 100px 150px 0 0;
 }
 
 .intro h1 {
   font-size: 3.87rem;
   line-height: 0.95;
   font-weight: 600;
+}
+
+.teste {
+  font-family: 'Source Code Pro';
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 12px;
+  letter-spacing: 0.1em;
+  text-align: left;
+  color: #9F9F9F;
+  background: #E5E5E5;
+  border-radius: 25px;
+  padding: 8px 16px;
+  display: inline-block;
+  margin-bottom: 23px;
 }
 
 .faster {

@@ -75,6 +75,11 @@ label {
   border-radius: 20px;
 }
 
+textarea:focus {
+	border: 1px solid #5AB88F;
+  outline: 1px solid #5AB88F;
+}
+
 
 .form-input:focus {
   color: #5AB88F;
