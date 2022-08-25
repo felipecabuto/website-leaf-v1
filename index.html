@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Leaf | Unified farm data API</title>
   <link rel="stylesheet" href="css/style.css">
-  <script src="script.js" defer></script>
+  <script src="js/script.js" defer></script>
 </head>
 
 <body>
@@ -17,8 +17,10 @@
       <img src="images/logo.svg" alt="Leaf">
     </div>
     <!-- Links -->
-    <nav aria-label="primary">
-      <ul class="nav-bar">
+    <nav id="nav" aria-label="primary">
+      <!-- Hamburguer Menu -->
+      <button aria-label="Open menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu<span id="hamburguer"></span></button>
+      <ul class="nav-bar" id="menu" role="menu">
         <li class="nav-bar_item dropdown"><a class="header-links" href="#">Products</a>
           <ul class="project">
             <div class="drop-content gap-drop">
@@ -39,7 +41,7 @@
               <img src="images/drop-products-03.png" alt="">
               <div class="drop-text">
                 <li><a href="#">Field Management Data</a></li>
-                <p>Boundaries, Management, Soil analisys, Prescriptions</p>
+                <p>Boundaries, Managem  ent, Soil analisys, Prescriptions</p>
               </div>
             </div>
           </ul>
@@ -93,22 +95,17 @@
   <!-- CALL TO ACTION -->
   <main class="intro">
     <div>
-      <p class="teste">+250K acres represented</p>
+      <p class="intro-tag">+250K acres represented</p>
       <h1>
         Build with farm<br />data <span class="faster">faster</span><span class="x-typed-cursor">|</span>
       </h1>
-      <p class="intro-sub">
-        Use Leaf to build and scale products,<br>applications and services.
-      </p>
-
-          <a class="green-btn" href="#">Start now
-            <svg class="arrow-start" width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M12.1402 6.75302L6.44361 1.05639L7.5 0L15 7.5L7.5 15L6.44361 13.9436L12.1402 8.24698H0V6.75302h32.1402Z" fill="#F5F5F5" />
-            </svg>
-          </a>
-
+      <p class="intro-sub">Use Leaf to build and scale products,<br>applications and services.</p>
+        <a class="green-btn" href="#">Start now
+          <svg class="arrow-start" width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M12.1402 6.75302L6.44361 1.05639L7.5 0L15 7.5L7.5 15L6.44361 13.9436L12.1402 8.24698H0V6.75302h32.1402Z" fill="#F5F5F5" />
+          </svg>
+        </a>
         <a class="sales-btn" href="">Contact sales</a>
-
     </div>
     <img src="images/leaf-product.png" alt="" />
     <!-- <video src="videos/leaf-product.mov"></video> -->

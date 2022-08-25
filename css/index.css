@@ -1,9 +1,5 @@
 /* CALL TO ACTION */
 .intro {
-  /* max-width: 1300px; */
-  /* padding: 120px 0;
-  margin: 0 auto;
-  margin-right: 0; */
   display: grid;
   grid-template-columns: 1fr 1fr;
   background: #f2f2f2;
@@ -22,7 +18,7 @@
   font-weight: 600;
 }
 
-.teste {
+.intro-tag {
   font-family: 'Source Code Pro';
   font-size: 12px;
   font-weight: 700;
@@ -79,6 +75,29 @@
 
 .sales-btn:hover {
   color: #5ab88f;
+}
+
+@media (max-width: 600px) {
+  .intro {
+    height: 250px;
+  }
+  .intro img {
+    display: none;
+  }
+  .intro-tag {
+    display: none;
+  }
+  .intro h1 {
+    padding-left: 60px;
+    width: 400px;
+    position: relative;
+    bottom: 80px;
+  }
+  .intro-sub {
+    position: relative;
+    bottom: 80px;
+    padding-left: 60px;
+  }
 }
 
 /* CLIENTS */
