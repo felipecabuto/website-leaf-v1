@@ -19,7 +19,6 @@
   max-width: 200px;
 }
 
-/* Hamburguer Menu */
 #btn-mobile {
   display: none;
 }
@@ -27,7 +26,7 @@
 @media (max-width: 600px) {
   .logo {
     position: relative;
-    right: 50px;
+    right: 100px;
   }
   .header {
     padding: 50;
@@ -67,6 +66,8 @@
     background: none;
     cursor: pointer;
     gap: .5rem;
+    position: relative;
+    left: 80px;
   }
   #hamburguer {
     border-top: 2px solid;

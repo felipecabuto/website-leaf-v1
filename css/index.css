@@ -80,6 +80,7 @@
 @media (max-width: 600px) {
   .intro {
     height: 250px;
+    margin-top: 15px;
   }
   .intro img {
     display: none;
@@ -88,15 +89,21 @@
     display: none;
   }
   .intro h1 {
+    /* font-size: 3.5rem; */
     padding-left: 60px;
     width: 400px;
     position: relative;
-    bottom: 80px;
+    bottom: 140px;
   }
   .intro-sub {
     position: relative;
-    bottom: 80px;
+    bottom: 140px;
     padding-left: 60px;
+  }
+  .green-btnMB {
+    position: relative;
+    bottom: 160px;
+    left: 80px;
   }
 }
 
@@ -119,6 +126,15 @@
   margin-left: auto;
   margin-right: auto;
   padding: 10px;
+}
+
+@media (max-width: 600px) {
+  .clients-section img {
+    position: relative;
+    min-width: 700px;
+    /* overflow-x: visible; */
+    /* scroll-behavior:smooth ; */
+  }
 }
 
 /* LEAF VALUES */
@@ -182,6 +198,25 @@
   line-height: 24px;
   color: #404040;
   padding-left: 20px;
+}
+
+@media (max-width: 600px) {
+  .values-section {
+    padding: 30px 50px;
+  }
+  .values-section h2 {
+    font-size: 2.5rem;
+    text-align: left;
+  }
+  .values-section p {
+    font-size: 1rem;
+    text-align: left;
+  }
+  .values-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
 }
 
 /* PRODUCTS */
@@ -442,6 +477,78 @@
 
 .imagery-1fr {
   padding-left: 100px;
+}
+
+@media (max-width: 600px) {
+  .machine-section {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0;
+  }
+  .machine-section h2 {
+    font-size: 2.5rem;
+    text-align: left;
+  }
+  .machine-section img {
+    position: relative;
+    bottom: 40px;
+    width: 400px;
+  }
+  .field-section {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+  }
+  .field-section img {
+    position: relative;
+    right: 35px;
+    min-width: 400px;
+  }
+  .field-text .product-name {
+    position: relative;
+    right: 110px;
+    margin-top: 20px;
+  }
+  .field-text h2 {
+    position: relative;
+    right: 110px;
+    margin-top: 20px;
+  }
+  .product-sub-field {
+    position: relative;
+    right: 110px;
+  }
+  .seemore-areaMB {
+    position: relative;
+    right: 110px;
+  }
+  .product-section .imagery-1fr {
+    position: relative;
+    right: 80px;
+  }
+  .product-section img {
+    display: none;
+  }
+  .dev-section {
+    padding-top: 10px;
+  }
+  .dev-section h2 {
+    font-size: 2.5rem;
+    text-align: left;
+    margin: 0;
+  }
+  .dev-section  p {
+    font-size: 1rem;
+    text-align: left;
+  }
+  .dev-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+  .dev-section img {
+    margin-top: 25px;
+  }
 }
 
 /* ENDPOINTS */
