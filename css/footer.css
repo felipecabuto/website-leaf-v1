@@ -11,7 +11,7 @@ footer{
 .footer-container {
     max-width: 1400px;
     padding: 0 3%;
-    margin: auto;
+    margin: 0;
 }
 
 .footer-grid {
@@ -235,8 +235,6 @@ hr {
         width: 40px;
     }
 }
-
-
 
 /* Contact Button */
 .contact-button {
