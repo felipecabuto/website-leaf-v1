@@ -18,6 +18,16 @@
   font-weight: 600;
 }
 
+h1 .faster::after {
+  content: '|';
+  opacity: 1;
+  margin-left: 10px;
+  display: inline-block;
+  color: #0D0D0D;
+  -webkit-animation: blink .7s infinite;
+  animation: blink .7s infinite;
+}
+
 .intro-tag {
   font-family: 'Source Code Pro';
   font-size: 12px;
@@ -514,35 +524,13 @@
     width: 400px;
   }
   .field-section {
-    display: flex;
-    flex-direction: column;
+    grid-template-columns: 1fr;
     padding-top: 10px;
+    position: relative;
+    right: 180px;
   }
   .field-section img {
-    position: relative;
-    right: 35px;
-    min-width: 400px;
-  }
-  .field-text {
-    margin-left: 80px;
-  }
-  .field-text .product-name {
-    position: relative;
-    right: 110px;
-    margin-top: 20px;
-  }
-  .field-text h2 {
-    position: relative;
-    right: 110px;
-    margin-top: 20px;
-  }
-  .product-sub-field {
-    position: relative;
-    right: 110px;
-  }
-  .seemore-areaMB {
-    position: relative;
-    right: 110px;
+    grid-row: 2;
   }
   .product-section .imagery-1fr {
     position: relative;

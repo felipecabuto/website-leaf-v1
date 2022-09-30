@@ -31,5 +31,8 @@
 /* contact.html */
 @import './contact.css';
 
+/* documentation.html */
+@import './documentation.css';
+
 /* endpoints.html */
 @import './endpoints.css';
